@@ -1,0 +1,18 @@
+2013/11/04 20:42:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin
+---
+2013/11/04 20:43:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php:483
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(270): CController->missingAction('admin')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(282): CController->run('admin')
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin
+---
