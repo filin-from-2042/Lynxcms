@@ -3,7 +3,7 @@ CREATE DATABASE IF NOT EXISTS `Lynxcms`
         
 CREATE TABLE `tbl_tag`(
         `tag_id` INT NOT NULL AUTO_INCREMENT,
-        `tag_name` VARCHAR(150) NOT NULL
+        `tag_name` VARCHAR(150) NOT NULL,
         CONSTRAINT `pk_tag_id` PRIMARY KEY (tag_id)
 );
 
