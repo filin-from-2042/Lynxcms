@@ -16,3 +16,11 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/Lynxcms/index.php?r=site/admin
 ---
+2013/11/06 22:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/index
+---
