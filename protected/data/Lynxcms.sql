@@ -1,3 +1,5 @@
+/*username: root password: Qwe12345*/
+
 DROP DATABASE IF EXISTS `Lynxcms`;
 CREATE DATABASE IF NOT EXISTS `Lynxcms` CHARACTER SET=utf8 COLLATE=utf8_general_ci;
  
