@@ -29,10 +29,12 @@
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'Главная', 'url'=>array('/site/index')),
-				array('label'=>'О компании', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Обратная связь', 'url'=>array('/site/contact')),
-                                array('label'=>'Админка', 'url'=>array('/admin/backend')), 
+				array('label'=>'Категории', 'url'=>array('/site/index')),
+				array('label'=>'Контент', 'url'=>array('/site/page', 'view'=>'about')),
+				array('label'=>'Пользователи', 'url'=>array('/site/contact')),
+                                array('label'=>'Просмотр сайта', 'url'=>array('/site/index')), 
+                                array('label'=>'Общие сведения', 'url'=>array('#')), 
+                                array('label'=>'Настройки', 'url'=>array('#')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),

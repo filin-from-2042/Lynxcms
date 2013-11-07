@@ -24,3 +24,226 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/Lynxcms/index.php?r=admin/index
 ---
+2013/11/06 22:22:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/index
+---
+2013/11/06 22:22:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:27:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/index
+---
+2013/11/06 22:35:06 [error] [php] Undefined variable: content (C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\backend\index.php:47)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): BackendController->renderFile()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): BackendController->renderPartial()
+#2 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\BackendController.php(8): BackendController->render()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): BackendController->actionIndex()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(286): BackendController->runAction()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): BackendController->runActionWithFilters()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): BackendController->run()
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/backend
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\backend\index.php (47)
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\BackendController.php (8)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/06 23:04:19 [error] [php] include(BackendController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Sites\home\localhost\www\Lynxcms\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\CategoryController.php(4): spl_autoload_call()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(354): require()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/category
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\CategoryController.php (4)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/06 23:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/פגüרע".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/?????')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/פגüרע
+---
+2013/11/06 23:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/admin
+---
+2013/11/06 23:11:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/index
+---
+2013/11/06 23:17:51 [error] [php] include(DefaultController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Sites\home\localhost\www\Lynxcms\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\BackendController.php(4): spl_autoload_call()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(354): require()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/backend
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\BackendController.php (4)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/06 23:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/backend".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/backend')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/backend
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/backend
+---
