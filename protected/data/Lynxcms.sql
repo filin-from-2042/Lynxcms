@@ -18,11 +18,14 @@ CREATE TABLE `tbl_user` (
     `name` VARCHAR(150) NOT NULL,
     `email` VARCHAR(150) NOT NULL,
     `password` VARCHAR(50) NOT NULL,
-    `creation_date` DATETIME NOT NULL,
-    `last_login_time` DATETIME,
+    `creation_date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    `last_login_time` TIMESTAMP,
     `role` TINYINT UNSIGNED,
      CONSTRAINT `pk_user_id`PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB;
+
+/*INSERT INTO `tbl_user` (name,email,password,role) VALUES ('Admin','qwe','123456','1');*/
+
 
 DROP TABLE IF EXISTS `tbl_category`;
 CREATE TABLE `tbl_category`(

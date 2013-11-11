@@ -3,7 +3,29 @@
 class BackendController extends Controller
 {
         public $layout='//layouts/column2_admin';
-	public function actionIndex()
+	
+   /* public function filters()
+	{
+		return array(
+			'accessControl', // perform access control for CRUD operations
+			'postOnly + delete', // we only allow deletion via POST request
+		);
+	}
+    
+    public function accessRules()
+	{
+		return array(
+			array('allow',  // allow all users to perform 'index' and 'view' actions
+				'actions'=>array('index'),
+				'users'=>array('@'),
+			),			
+			array('deny',  // deny all users
+				'users'=>array('*'),
+			),
+		);
+	} */
+    
+    public function actionIndex()
 	{ 
            
                 // вывод ссылок на возможные действия в админке
@@ -11,6 +33,7 @@ class BackendController extends Controller
 		$this->render('index');
 	}
 
+    
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()
