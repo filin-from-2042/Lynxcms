@@ -20,6 +20,7 @@ CREATE TABLE `tbl_user` (
     `password` VARCHAR(50) NOT NULL,
     `creation_date` DATETIME NOT NULL,
     `last_login_time` DATETIME,
+    `role` TINYINT UNSIGNED,
      CONSTRAINT `pk_user_id`PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB;
 
@@ -61,4 +62,16 @@ CREATE TABLE `tbl_content_tag_assignment`(
     PRIMARY KEY (`content_id`,`tag_id`),
     CONSTRAINT `fk_content_id` FOREIGN KEY (`content_id`) REFERENCES `tbl_content` (`content_id`),
     CONSTRAINT `fk_tag_id` FOREIGN KEY (`tag_id`) REFERENCES `tbl_tag` (`tag_id`)
+) ENGINE=InnoDB;
+
+DROP TABLE IF EXISTS `tbl_menu`;
+CREATE TABLE `tbl_menu` (
+    `item_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(50) NOT NULL,
+    `url` VARCHAR(150) NOT NULL,
+    `position` TINYINT NOT NULL,
+    `published` BOOLEAN,
+    `content_id` INT UNSIGNED NOT NULL, 
+    CONSTRAINT `fk_content_id_menu` FOREIGN KEY (`content_id`) REFERENCES `tbl_content` (`content_id`),
+    PRIMARY KEY (`item_id`)
 ) ENGINE=InnoDB;
