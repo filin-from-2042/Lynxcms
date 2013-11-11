@@ -755,3 +755,85 @@ REQUEST_URI=/Lynxcms/index.php?r=site/login
 in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\models\LoginForm.php (52)
 in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\SiteController.php (94)
 in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/11 20:21:12 [error] [php] Undefined variable: username (/home/ak-2100/Sites/yii/www/Lynxcms/protected/models/LoginForm.php:52)
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CModel.php(159): CInlineValidator->validate()
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/SiteController.php(94): LoginForm->validate()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#3 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(286): SiteController->runAction()
+#5 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=site/login
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/models/LoginForm.php (52)
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/SiteController.php (94)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/11 22:12:04 [error] [exception.CException] exception 'CException' with message 'Property "User.id" is not defined.' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/db/ar/CActiveRecord.php(145): CComponent->__get('id')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/protected/components/UserIdentity.php(31): CActiveRecord->__get('id')
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/protected/models/LoginForm.php(51): UserIdentity->authenticate()
+#3 /home/ak-2100/Sites/yii/www/Lynxcms/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /home/ak-2100/Sites/yii/www/Lynxcms/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/login
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/11 22:13:39 [error] [exception.CException] exception 'CException' with message 'Property "User.id" is not defined.' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/db/ar/CActiveRecord.php(145): CComponent->__get('id')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/protected/components/UserIdentity.php(31): CActiveRecord->__get('id')
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/protected/models/LoginForm.php(51): UserIdentity->authenticate()
+#3 /home/ak-2100/Sites/yii/www/Lynxcms/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /home/ak-2100/Sites/yii/www/Lynxcms/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/login
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/11 22:13:48 [error] [exception.CException] exception 'CException' with message 'Property "User.id" is not defined.' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/db/ar/CActiveRecord.php(145): CComponent->__get('id')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/protected/components/UserIdentity.php(31): CActiveRecord->__get('id')
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/protected/models/LoginForm.php(51): UserIdentity->authenticate()
+#3 /home/ak-2100/Sites/yii/www/Lynxcms/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /home/ak-2100/Sites/yii/www/Lynxcms/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/login
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/11 22:19:21 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (72)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
