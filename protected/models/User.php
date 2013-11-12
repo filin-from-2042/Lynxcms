@@ -62,12 +62,12 @@ class User extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'user_id' => 'User',
-			'name' => 'Name',
+			'user_id' => 'Номер пользователя',
+			'name' => 'Имя',
 			'email' => 'Email',
-			'password' => 'Password',
-			'creation_date' => 'Creation Date',
-			'last_login_time' => 'Last Login Time',
+			'password' => 'Пароль',
+			'creation_date' => 'Дата регистрации',
+			'last_login_time' => 'Последнее время логина',
 		);
 	}
 
@@ -89,12 +89,10 @@ class User extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('user_id',$this->user_id,true);
-		$criteria->compare('name',$this->name,true);
-		$criteria->compare('email',$this->email,true);
-		$criteria->compare('password',$this->password,true);
-		$criteria->compare('creation_date',$this->creation_date,true);
-		$criteria->compare('last_login_time',$this->last_login_time,true);
+		$criteria->compare('Имя',$this->name,true);
+		$criteria->compare('Email',$this->email,true);
+		$criteria->compare('Дата регистрации',$this->creation_date,true);
+		$criteria->compare('Дата последнего входа',$this->last_login_time,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

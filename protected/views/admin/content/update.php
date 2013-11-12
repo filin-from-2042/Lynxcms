@@ -9,13 +9,13 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Content', 'url'=>array('index')),
-	array('label'=>'Create Content', 'url'=>array('create')),
-	array('label'=>'View Content', 'url'=>array('view', 'id'=>$model->content_id)),
-	array('label'=>'Manage Content', 'url'=>array('admin')),
+	array('label'=>'Список контента', 'url'=>array('index')),
+	array('label'=>'Создать контент', 'url'=>array('create')),
+	array('label'=>'Просмотр контента', 'url'=>array('view', 'id'=>$model->content_id)),
+	array('label'=>'Менеджер контента', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Content <?php echo $model->content_id; ?></h1>
+<h1>Изменить контент <?php echo $model->content_id; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

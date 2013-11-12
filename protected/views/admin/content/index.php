@@ -7,12 +7,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Content', 'url'=>array('create')),
-	array('label'=>'Manage Content', 'url'=>array('admin')),
+	array('label'=>'Создать контент', 'url'=>array('create')),
+	array('label'=>'Менеджер контента', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Contents</h1>
+<h1> Контент</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

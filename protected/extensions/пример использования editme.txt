@@ -1,0 +1,5 @@
+<?php $this->widget('ext.editMe.widgets.ExtEditMe', array(
+    'model'=>$model,
+    'attribute'=>'content',
+    //'optionName'=>'optionValue',
+));

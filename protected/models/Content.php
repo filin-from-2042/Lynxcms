@@ -24,8 +24,46 @@
  * @property Tag[] $tblTags
  */
 class Content extends CActiveRecord
-{
-	/**
+{       
+        
+    /*
+       function getCategoryOptions()
+        {
+            
+     }
+       
+        */
+        
+        function  getAllowedCategoryRange(){
+            
+            
+            
+        }
+        
+        function beforeSave() 
+        {
+            if (NULL!==Yii::app()->user)
+                $id=Yii::app ()->user->id;
+            else {
+                $id=1;
+            }
+            if ($this->isNewRecord)
+                $this->created_by=$id;
+                $this->updated_by=$id;
+          return  parent::beforeSave();
+        }
+        
+        public function behaviors() {
+            return array('CTimestampBehavior'=>array(
+                            'class'=>'zii.behaviors.CTimestampBehavior',
+                            'createAttribute'=>'creation_date',
+                            'updateAttribute'=>'updation_date',
+                            'setUpdateOnCreate'=>'true',),
+                );
+                            
+            
+        }
+        /**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
@@ -41,11 +79,11 @@ class Content extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, alias, content, published, created_by, updated_by, category_id', 'required'),
+			array('title, alias, content, published,  category_id', 'required'),
 			array('published', 'numerical', 'integerOnly'=>true),
 			array('title, alias, keywords, description', 'length', 'max'=>150),
 			array('created_by, updated_by, category_id', 'length', 'max'=>10),
-			array('creation_date, updation_date', 'safe'),
+			array('creation_date, updation_date, created_by, updated_by','safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('content_id, title, alias, content, published, keywords, description, created_by, creation_date, updated_by, updation_date, category_id', 'safe', 'on'=>'search'),
@@ -74,17 +112,17 @@ class Content extends CActiveRecord
 	{
 		return array(
 			'content_id' => 'Content',
-			'title' => 'Title',
-			'alias' => 'Alias',
-			'content' => 'Content',
-			'published' => 'Published',
-			'keywords' => 'Keywords',
-			'description' => 'Description',
+			'title' => 'Название',
+			'alias' => 'Алиас',
+			'content' => 'Текст',
+			'published' => 'Опубликовано',
+			'keywords' => 'Ключевое слово',
+			'description' => 'Описание',
 			'created_by' => 'Created By',
 			'creation_date' => 'Creation Date',
 			'updated_by' => 'Updated By',
 			'updation_date' => 'Updation Date',
-			'category_id' => 'Category',
+			'category_id' => 'Категория',
 		);
 	}
 

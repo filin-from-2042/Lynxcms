@@ -14,6 +14,12 @@
  */
 class Category extends CActiveRecord
 {
+        function getCategoryOptions(){
+            $model=  Category::model()->findAll();
+            return $categoryArray=CHtml::listData($model, 'category_id', 'title');
+            
+            
+        }
 	/**
 	 * @return string the associated database table name
 	 */
@@ -55,10 +61,9 @@ class Category extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'category_id' => 'Category',
-			'title' => 'Title',
-			'description' => 'Description',
-			'published' => 'Published',
+			'title' => 'Название',
+			'description' => 'Описание',
+			'published' => 'Опубликовано',
 		);
 	}
 

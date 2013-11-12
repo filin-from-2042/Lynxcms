@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Content', 'url'=>array('index')),
-	array('label'=>'Manage Content', 'url'=>array('admin')),
+	array('label'=>'Список контента', 'url'=>array('index')),
+	array('label'=>'Менеджер контента', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Content</h1>
+<h1>Создать контент</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

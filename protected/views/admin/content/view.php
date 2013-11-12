@@ -8,15 +8,18 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Content', 'url'=>array('index')),
-	array('label'=>'Create Content', 'url'=>array('create')),
-	array('label'=>'Update Content', 'url'=>array('update', 'id'=>$model->content_id)),
-	array('label'=>'Delete Content', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->content_id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Content', 'url'=>array('admin')),
+	array('label'=>'Список контента', 'url'=>array('index')),
+	array('label'=>'Создать контент', 'url'=>array('create')),
+	array('label'=>'Редактировать контент', 'url'=>array('update', 'id'=>$model->content_id)),
+	array('label'=>'Удалить', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->content_id),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Менеджер контента', 'url'=>array('admin')),
+        array('label'=>'Создать тег', 'url'=>array('')),
+        array('label'=>'Редактировать тег', 'url'=>array('admin')),
+        array('label'=>'Удалить тег', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Content #<?php echo $model->content_id; ?></h1>
+<h1>Обзор контента #<?php echo $model->content_id; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
