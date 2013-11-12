@@ -837,3 +837,104 @@ HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
 2013/11/11 22:19:21 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
 in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (72)
 in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/12 15:01:40 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:02:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/admi...')
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/admin
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/user/index
+---
+2013/11/12 15:03:05 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:05:13 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:05:17 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:05:42 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:05:56 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:06:24 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:51:51 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:51:51 [error] [php] Indirect modification of overloaded property User::$attributes has no effect (C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php:73)
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/create
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (73)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:52:28 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:52:28 [error] [php] Indirect modification of overloaded property User::$attributes has no effect (C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php:73)
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/create
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (73)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:52:47 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:54:28 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:54:28 [error] [php] Indirect modification of overloaded property User::$attributes has no effect (C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php:73)
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/create
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (73)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:55:54 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (73)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)

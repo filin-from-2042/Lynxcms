@@ -17,7 +17,7 @@ CREATE TABLE `tbl_user` (
     `user_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
     `name` VARCHAR(150) NOT NULL,
     `email` VARCHAR(150) NOT NULL,
-    `password` VARCHAR(50) NOT NULL,
+    `password` VARCHAR(150) NOT NULL,
     `creation_date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     `last_login_time` TIMESTAMP,
     `role` TINYINT UNSIGNED,
