@@ -1,4 +1,4 @@
-/*username: root password: Qwe12345*/
+/*username: root password: 123456*/
 
 DROP DATABASE IF EXISTS `Lynxcms`;
 CREATE DATABASE IF NOT EXISTS `Lynxcms` CHARACTER SET=utf8 COLLATE=utf8_general_ci;
@@ -17,11 +17,15 @@ CREATE TABLE `tbl_user` (
     `user_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
     `name` VARCHAR(150) NOT NULL,
     `email` VARCHAR(150) NOT NULL,
-    `password` VARCHAR(50) NOT NULL,
-    `creation_date` DATETIME NOT NULL,
-    `last_login_time` DATETIME,
+    `password` VARCHAR(150) NOT NULL,
+    `creation_date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    `last_login_time` TIMESTAMP,
+    `role` TINYINT UNSIGNED,
      CONSTRAINT `pk_user_id`PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB;
+
+/*INSERT INTO `tbl_user` (name,email,password,role) VALUES ('demo','webmaster@example.com','$2a$10$JTJf6/XqC94rrOtzuF397OHa4mbmZrVTBOQCmYD9U.obZRUut4BoC','1');*/
+
 
 DROP TABLE IF EXISTS `tbl_category`;
 CREATE TABLE `tbl_category`(
@@ -61,4 +65,16 @@ CREATE TABLE `tbl_content_tag_assignment`(
     PRIMARY KEY (`content_id`,`tag_id`),
     CONSTRAINT `fk_content_id` FOREIGN KEY (`content_id`) REFERENCES `tbl_content` (`content_id`),
     CONSTRAINT `fk_tag_id` FOREIGN KEY (`tag_id`) REFERENCES `tbl_tag` (`tag_id`)
+) ENGINE=InnoDB;
+
+DROP TABLE IF EXISTS `tbl_menu`;
+CREATE TABLE `tbl_menu` (
+    `item_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(50) NOT NULL,
+    `url` VARCHAR(150) NOT NULL,
+    `position` TINYINT NOT NULL,
+    `published` BOOLEAN,
+    `content_id` INT UNSIGNED NOT NULL, 
+    CONSTRAINT `fk_content_id_menu` FOREIGN KEY (`content_id`) REFERENCES `tbl_content` (`content_id`),
+    PRIMARY KEY (`item_id`)
 ) ENGINE=InnoDB;
