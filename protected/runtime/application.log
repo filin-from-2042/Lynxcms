@@ -1650,3 +1650,6 @@ Stack trace:
 REQUEST_URI=/Lynxcms/index.php?ajax=user-grid&id=2&r=admin%2Fuser%2Fdelete
 HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/user/admin
 ---
+2013/11/19 21:55:34 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (75)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
