@@ -7,6 +7,8 @@ class ContentController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2_admin';
+        public $defaultAction = 'admin';
+
 
 	/**
 	 * @return array action filters

@@ -31,6 +31,7 @@
 			'items'=>array(
                                 array('label'=>'Главная страница', 'url'=>array('/admin/backend')),
                                 array('label'=>'Общие сведения', 'url'=>array('#')), 
+                                array('label'=>'Меню', 'url'=>array('//admin/menu'),),
 				array('label'=>'Категории', 'url'=>array('/admin/category')),
 				array('label'=>'Контент', 'url'=>array('/admin/content', 'view'=>'about')),
 				array('label'=>'Пользователи', 'url'=>array('/admin/user')),

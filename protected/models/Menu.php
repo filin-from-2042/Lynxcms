@@ -1,28 +1,27 @@
 <?php
 
 /**
- * This is the model class for table "tbl_user".
+ * This is the model class for table "tbl_menu".
  *
- * The followings are the available columns in table 'tbl_user':
- * @property string $user_id
+ * The followings are the available columns in table 'tbl_menu':
+ * @property string $item_id
  * @property string $name
- * @property string $email
- * @property string $password
- * @property string $creation_date
- * @property string $last_login_time
+ * @property string $url
+ * @property integer $position
+ * @property integer $published
+ * @property string $content_id
  *
  * The followings are the available model relations:
- * @property Content[] $contents
- * @property Content[] $contents1
+ * @property Content $content
  */
-class User extends CActiveRecord
+class Menu extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'tbl_user';
+		return 'tbl_menu';
 	}
 
 	/**
@@ -33,13 +32,14 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, email, password', 'required'),
-			array('name, email', 'length', 'max'=>150),
-			array('password', 'length', 'max'=>50),
-			array('last_login_time', 'safe'),
+			array('name, url, position, content_id', 'required'),
+			array('position, published', 'numerical', 'integerOnly'=>true),
+			array('name', 'length', 'max'=>50),
+			array('url', 'length', 'max'=>150),
+			array('content_id', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('user_id, name, email, password, creation_date, last_login_time', 'safe', 'on'=>'search'),
+			array('item_id, name, url, position, published, content_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -51,8 +51,7 @@ class User extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'contents' => array(self::HAS_MANY, 'Content', 'created_by'),
-			'contents1' => array(self::HAS_MANY, 'Content', 'updated_by'),
+			'content' => array(self::BELONGS_TO, 'Content', 'content_id'),
 		);
 	}
 
@@ -62,14 +61,12 @@ class User extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-
-			'user_id' => 'ID пользователя',
-			'name' => 'Имя входа',
-			'email' => 'Электронная почта',
-			'password' => 'Пароль',
-			'creation_date' => 'Дата создания',
-			'last_login_time' => 'Дата последнего входа',
-
+			'item_id' => 'Номер меню',
+			'name' => 'Название',
+			'url' => 'Url',
+			'position' => 'Позиция',
+			'published' => 'Опубликовано',
+			'content_id' => 'Привязанный контент?',
 		);
 	}
 
@@ -91,10 +88,12 @@ class User extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('Имя',$this->name,true);
-		$criteria->compare('Email',$this->email,true);
-		$criteria->compare('Дата регистрации',$this->creation_date,true);
-		$criteria->compare('Дата последнего входа',$this->last_login_time,true);
+		$criteria->compare('item_id',$this->item_id,true);
+		$criteria->compare('name',$this->name,true);
+		$criteria->compare('url',$this->url,true);
+		$criteria->compare('position',$this->position);
+		$criteria->compare('published',$this->published);
+		$criteria->compare('content_id',$this->content_id,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -105,21 +104,10 @@ class User extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return User the static model class
+	 * @return Menu the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
 	}
-  /*  
-   public function validatePassword($password)
-    {
-        return CPasswordHelper::verifyPassword($password,$this->password);
-    }
- 
-    public function hashPassword($password)
-    {
-        return CPasswordHelper::hashPassword($password);
-    }*/
-    
 }

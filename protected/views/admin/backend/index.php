@@ -15,6 +15,7 @@ $this->breadcrumbs=array(
 	
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
+                                array('label'=>'Меню', 'url'=>array('//admin/menu'),),
 				array('label'=>'Категории', 'url'=>array('//admin/category'),),
 				array('label'=>'Контент', 'url'=>array('/admin/content', )),
 				array('label'=>'Пользователи', 'url'=>array('/admin/user')),
