@@ -1653,3 +1653,94 @@ HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/user/admin
 2013/11/19 21:55:34 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
 in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (75)
 in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/19 22:37:08 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (75)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/19 22:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/login
+---
+2013/11/19 22:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://localhost/Lynxcms/index.php
+---
+2013/11/19 22:42:24 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (75)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/19 22:43:33 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (75)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/19 22:43:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Sites\home\localhost\www\Lynxcms\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/menu')
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/menu
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/login
+---
+2013/11/19 22:44:53 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (75)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/19 22:45:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/user/view&id=4
+---
+2013/11/19 22:45:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/login
+---
+2013/11/19 22:45:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Sites\home\localhost\www\Lynxcms\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content')
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/content&view=about
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/backend
+---
+2013/11/19 22:45:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/user
+---

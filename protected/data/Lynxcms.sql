@@ -24,7 +24,7 @@ CREATE TABLE `tbl_user` (
      CONSTRAINT `pk_user_id`PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB;
 
-/*INSERT INTO `tbl_user` (name,email,password,role) VALUES ('demo','webmaster@example.com','$2a$10$JTJf6/XqC94rrOtzuF397OHa4mbmZrVTBOQCmYD9U.obZRUut4BoC','1');*/
+INSERT INTO `tbl_user` (name,email,password,role) VALUES ('demo','webmaster@example.com','$2a$10$JTJf6/XqC94rrOtzuF397OHa4mbmZrVTBOQCmYD9U.obZRUut4BoC','1');
 
 
 DROP TABLE IF EXISTS `tbl_category`;
