@@ -1,0 +1,1787 @@
+2013/11/04 20:42:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin
+---
+2013/11/04 20:43:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php:483
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(270): CController->missingAction('admin')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(282): CController->run('admin')
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin
+---
+2013/11/06 14:55:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin
+---
+2013/11/06 14:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin
+---
+2013/11/06 14:55:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin
+---
+2013/11/06 14:56:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin
+---
+<<<<<<< HEAD
+2013/11/06 14:56:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/inde...')
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/index
+---
+2013/11/07 08:54:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/inde...')
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/index
+=======
+2013/11/06 22:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/index
+---
+2013/11/06 22:22:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/index
+---
+2013/11/06 22:22:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:23:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin/cont...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/admin/content
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=site/admin/content
+---
+2013/11/06 22:27:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/index
+---
+2013/11/06 22:35:06 [error] [php] Undefined variable: content (C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\backend\index.php:47)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): BackendController->renderFile()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): BackendController->renderPartial()
+#2 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\BackendController.php(8): BackendController->render()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): BackendController->actionIndex()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(286): BackendController->runAction()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): BackendController->runActionWithFilters()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): BackendController->run()
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/backend
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\backend\index.php (47)
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\BackendController.php (8)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/06 23:04:19 [error] [php] include(BackendController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Sites\home\localhost\www\Lynxcms\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\CategoryController.php(4): spl_autoload_call()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(354): require()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/category
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\CategoryController.php (4)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/06 23:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/фвьшт".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/?????')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/фвьшт
+---
+2013/11/06 23:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/admin
+---
+2013/11/06 23:11:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/index
+---
+2013/11/06 23:17:51 [error] [php] include(DefaultController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Sites\home\localhost\www\Lynxcms\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\BackendController.php(4): spl_autoload_call()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(354): require()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/backend
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\BackendController.php (4)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/06 23:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/backend".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/backend')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/backend
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/backend
+>>>>>>> e7676cce146654b88e5aaaf79e63cf9ab61ea7b3
+---
+2013/11/11 14:04:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#12 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#13 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(147): CListView->init()
+#14 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\views\admin\category\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Users\7153-0...')
+#17 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Users\7153-0...', Array, true)
+#18 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Users\7153-0...', Array, true)
+#19 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\CategoryController.php(128): CController->render('index', Array)
+#21 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): CategoryController->actionIndex()
+#22 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#31 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category')
+#32 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#33 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/category
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/backend/
+---
+2013/11/11 14:04:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#12 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#13 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(147): CListView->init()
+#14 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\views\admin\category\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Users\7153-0...')
+#17 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Users\7153-0...', Array, true)
+#18 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Users\7153-0...', Array, true)
+#19 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\CategoryController.php(128): CController->render('index', Array)
+#21 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): CategoryController->actionIndex()
+#22 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#31 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category')
+#32 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#33 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/category
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/backend/
+---
+2013/11/11 14:04:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#12 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#13 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(147): CListView->init()
+#14 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\views\admin\category\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Users\7153-0...')
+#17 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Users\7153-0...', Array, true)
+#18 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Users\7153-0...', Array, true)
+#19 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\CategoryController.php(128): CController->render('index', Array)
+#21 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): CategoryController->actionIndex()
+#22 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#31 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category')
+#32 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#33 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/category
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/backend/
+---
+2013/11/11 14:04:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#12 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#13 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(147): CListView->init()
+#14 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\views\admin\category\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Users\7153-0...')
+#17 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Users\7153-0...', Array, true)
+#18 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Users\7153-0...', Array, true)
+#19 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\CategoryController.php(128): CController->render('index', Array)
+#21 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): CategoryController->actionIndex()
+#22 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#31 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category')
+#32 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#33 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/category
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/backend/
+---
+2013/11/11 14:04:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#12 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#13 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(147): CListView->init()
+#14 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\views\admin\category\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Users\7153-0...')
+#17 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Users\7153-0...', Array, true)
+#18 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Users\7153-0...', Array, true)
+#19 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\CategoryController.php(128): CController->render('index', Array)
+#21 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): CategoryController->actionIndex()
+#22 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#31 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category')
+#32 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#33 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/category
+---
+2013/11/11 14:05:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#12 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#13 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(147): CListView->init()
+#14 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\views\admin\user\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Users\7153-0...')
+#17 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Users\7153-0...', Array, true)
+#18 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Users\7153-0...', Array, true)
+#19 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php(128): CController->render('index', Array)
+#21 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#22 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#31 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user')
+#32 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#33 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/user
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/backend/
+---
+2013/11/11 14:05:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#12 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#13 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(147): CListView->init()
+#14 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\views\admin\category\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Users\7153-0...')
+#17 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Users\7153-0...', Array, true)
+#18 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Users\7153-0...', Array, true)
+#19 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\CategoryController.php(128): CController->render('index', Array)
+#21 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): CategoryController->actionIndex()
+#22 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#31 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category')
+#32 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#33 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/category
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/backend/
+---
+2013/11/11 14:05:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#12 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#13 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(147): CListView->init()
+#14 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\views\admin\content\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Users\7153-0...')
+#17 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Users\7153-0...', Array, true)
+#18 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Users\7153-0...', Array, true)
+#19 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\ContentController.php(128): CController->render('index', Array)
+#21 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionIndex()
+#22 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#31 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content')
+#32 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#33 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/content&view=about
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/backend/
+---
+2013/11/11 14:56:28 [error] [php] Invalid argument supplied for foreach() (C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php:104)
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): UserController->run()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/create
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/11 16:53:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/admi...')
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/admin
+HTTP_REFERER=http://test/Lynxcms/index.php?r=site/login
+---
+2013/11/11 16:53:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/admi...')
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/admin
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/user
+---
+2013/11/11 16:55:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/admi...')
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/admin
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/user
+---
+2013/11/11 17:41:04 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\components\UserIdentity.php(28): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\components\UserIdentity.php(28): User->validatePassword('123456')
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\SiteController.php(94): CModel->validate()
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/login
+HTTP_REFERER=http://test/Lynxcms/index.php?r=site/login
+---
+2013/11/11 17:52:50 [error] [php] Undefined variable: username (C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\models\LoginForm.php:51)
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModel.php(159): CInlineValidator->validate()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\SiteController.php(94): LoginForm->validate()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=site/login
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\models\LoginForm.php (51)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\SiteController.php (94)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/11 17:54:24 [error] [php] Undefined variable: username (C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\models\LoginForm.php:51)
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModel.php(159): CInlineValidator->validate()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\SiteController.php(94): LoginForm->validate()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=site/login
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\models\LoginForm.php (51)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\SiteController.php (94)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/11 17:55:30 [error] [php] Undefined variable: username (C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\models\LoginForm.php:52)
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModel.php(159): CInlineValidator->validate()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\SiteController.php(94): LoginForm->validate()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=site/login
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\models\LoginForm.php (52)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\SiteController.php (94)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/11 20:21:12 [error] [php] Undefined variable: username (/home/ak-2100/Sites/yii/www/Lynxcms/protected/models/LoginForm.php:52)
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CModel.php(159): CInlineValidator->validate()
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/SiteController.php(94): LoginForm->validate()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#3 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(286): SiteController->runAction()
+#5 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=site/login
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/models/LoginForm.php (52)
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/SiteController.php (94)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/11 22:12:04 [error] [exception.CException] exception 'CException' with message 'Property "User.id" is not defined.' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/db/ar/CActiveRecord.php(145): CComponent->__get('id')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/protected/components/UserIdentity.php(31): CActiveRecord->__get('id')
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/protected/models/LoginForm.php(51): UserIdentity->authenticate()
+#3 /home/ak-2100/Sites/yii/www/Lynxcms/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /home/ak-2100/Sites/yii/www/Lynxcms/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/login
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/11 22:13:39 [error] [exception.CException] exception 'CException' with message 'Property "User.id" is not defined.' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/db/ar/CActiveRecord.php(145): CComponent->__get('id')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/protected/components/UserIdentity.php(31): CActiveRecord->__get('id')
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/protected/models/LoginForm.php(51): UserIdentity->authenticate()
+#3 /home/ak-2100/Sites/yii/www/Lynxcms/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /home/ak-2100/Sites/yii/www/Lynxcms/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/login
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/11 22:13:48 [error] [exception.CException] exception 'CException' with message 'Property "User.id" is not defined.' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/db/ar/CActiveRecord.php(145): CComponent->__get('id')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/protected/components/UserIdentity.php(31): CActiveRecord->__get('id')
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/protected/models/LoginForm.php(51): UserIdentity->authenticate()
+#3 /home/ak-2100/Sites/yii/www/Lynxcms/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /home/ak-2100/Sites/yii/www/Lynxcms/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Lynxcms/index.php?r=site/login
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/11 22:19:21 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (72)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/12 15:01:40 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:02:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/admi...')
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/admin
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/user/index
+---
+2013/11/12 15:03:05 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:05:13 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:05:17 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:05:42 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:05:56 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:06:24 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:51:51 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:51:51 [error] [php] Indirect modification of overloaded property User::$attributes has no effect (C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php:73)
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/create
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (73)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:52:28 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:52:28 [error] [php] Indirect modification of overloaded property User::$attributes has no effect (C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php:73)
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/create
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (73)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:52:47 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:54:28 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (72)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:54:28 [error] [php] Indirect modification of overloaded property User::$attributes has no effect (C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php:73)
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/create
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (73)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/12 15:55:54 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (73)
+in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
+2013/11/13 15:28:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\ar\CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#12 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#13 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(147): CListView->init()
+#14 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\views\admin\user\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Users\7153-0...')
+#17 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Users\7153-0...', Array, true)
+#18 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Users\7153-0...', Array, true)
+#19 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php(131): CController->render('index', Array)
+#21 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#22 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#31 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user')
+#32 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#33 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/user
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/backend
+---
+2013/11/13 15:33:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/admi...')
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/admin
+HTTP_REFERER=http://test/Lynxcms/index.php?r=site/login
+---
+2013/11/13 15:33:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/admi...')
+#9 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/user/admin
+HTTP_REFERER=http://test/Lynxcms/index.php?r=admin/user
+---
+2013/11/07 23:49:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in C:\Sites\home\localhost\www\Lynxcms\framework\gii\GiiModule.php:170
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Lynxcms/index.php?r=gii
+---
+2013/11/12 08:33:00 [error] [exception.CException] exception 'CException' with message 'ContentController and its behaviors do not have a method or closure named "getCategoryOptions".' in C:\Sites\home\localhost\www\Lynxcms\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php(36): CComponent->__call('getCategoryOpti...', Array)
+#1 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php(36): ContentController->getCategoryOptions()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Sites\home\l...')
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Sites\home\l...', Array, true)
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Sites\home\l...', Array, true)
+#5 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Sites\home\l...')
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Sites\home\l...', Array, true)
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Sites\home\l...', Array, true)
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): CController->render('create', Array)
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content/c...')
+#22 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/content&view=about
+---
+2013/11/12 08:33:46 [error] [php] Invalid argument supplied for foreach() (C:\Sites\home\localhost\www\Lynxcms\framework\web\helpers\CHtml.php:2078)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#3 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): ContentController->renderPartial()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): ContentController->renderPartial()
+#8 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): ContentController->render()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): ContentController->runAction()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): ContentController->filterAccessControl()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): ContentController->runActionWithFilters()
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): ContentController->run()
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+in C:\Sites\home\localhost\www\Lynxcms\protected\models\Content.php (32)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php (36)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php (18)
+2013/11/12 08:41:56 [error] [php] Invalid argument supplied for foreach() (C:\Sites\home\localhost\www\Lynxcms\framework\web\helpers\CHtml.php:2078)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#3 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): ContentController->renderPartial()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): ContentController->renderPartial()
+#8 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): ContentController->render()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): ContentController->runAction()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): ContentController->filterAccessControl()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): ContentController->runActionWithFilters()
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): ContentController->run()
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+in C:\Sites\home\localhost\www\Lynxcms\protected\models\Content.php (32)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php (36)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php (18)
+2013/11/12 08:41:58 [error] [php] Invalid argument supplied for foreach() (C:\Sites\home\localhost\www\Lynxcms\framework\web\helpers\CHtml.php:2078)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#3 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): ContentController->renderPartial()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): ContentController->renderPartial()
+#8 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): ContentController->render()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): ContentController->runAction()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): ContentController->filterAccessControl()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): ContentController->runActionWithFilters()
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): ContentController->run()
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+in C:\Sites\home\localhost\www\Lynxcms\protected\models\Content.php (32)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php (36)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php (18)
+2013/11/12 08:45:57 [error] [php] Invalid argument supplied for foreach() (C:\Sites\home\localhost\www\Lynxcms\framework\web\helpers\CHtml.php:2078)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#3 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): ContentController->renderPartial()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): ContentController->renderPartial()
+#8 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): ContentController->render()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): ContentController->runAction()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): ContentController->filterAccessControl()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): ContentController->runActionWithFilters()
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): ContentController->run()
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+in C:\Sites\home\localhost\www\Lynxcms\protected\models\Content.php (32)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php (36)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php (18)
+2013/11/12 08:45:58 [error] [php] Invalid argument supplied for foreach() (C:\Sites\home\localhost\www\Lynxcms\framework\web\helpers\CHtml.php:2078)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#3 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): ContentController->renderPartial()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): ContentController->renderPartial()
+#8 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): ContentController->render()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): ContentController->runAction()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): ContentController->filterAccessControl()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): ContentController->runActionWithFilters()
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): ContentController->run()
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+in C:\Sites\home\localhost\www\Lynxcms\protected\models\Content.php (32)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php (36)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php (18)
+2013/11/12 08:45:59 [error] [php] Invalid argument supplied for foreach() (C:\Sites\home\localhost\www\Lynxcms\framework\web\helpers\CHtml.php:2078)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#3 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): ContentController->renderPartial()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): ContentController->renderPartial()
+#8 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): ContentController->render()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): ContentController->runAction()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): ContentController->filterAccessControl()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): ContentController->runActionWithFilters()
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): ContentController->run()
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+in C:\Sites\home\localhost\www\Lynxcms\protected\models\Content.php (32)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php (36)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php (18)
+2013/11/12 08:46:16 [error] [exception.CException] exception 'CException' with message 'Content and its behaviors do not have a method or closure named "getCategoryOptions".' in C:\Sites\home\localhost\www\Lynxcms\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getCategoryOpti...', Array)
+#1 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php(36): CActiveRecord->__call('getCategoryOpti...', Array)
+#2 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php(36): Content->getCategoryOptions()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Sites\home\l...')
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Sites\home\l...', Array, true)
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Sites\home\l...', Array, true)
+#6 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): CController->renderPartial('_form', Array)
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Sites\home\l...')
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Sites\home\l...', Array, true)
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Sites\home\l...', Array, true)
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#11 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): CController->render('create', Array)
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('create')
+#22 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content/c...')
+#23 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/content&view=about
+---
+2013/11/12 08:50:19 [error] [exception.CException] exception 'CException' with message 'Property "Category.category" is not defined.' in C:\Sites\home\localhost\www\Lynxcms\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(145): CComponent->__get('category')
+#1 C:\Sites\home\localhost\www\Lynxcms\protected\models\Category.php(18): CActiveRecord->__get('category')
+#2 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php(36): Category->getCategoryOptions()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Sites\home\l...')
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Sites\home\l...', Array, true)
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Sites\home\l...', Array, true)
+#6 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): CController->renderPartial('_form', Array)
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Sites\home\l...')
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Sites\home\l...', Array, true)
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Sites\home\l...', Array, true)
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#11 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): CController->render('create', Array)
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('create')
+#22 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content/c...')
+#23 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/content&view=about
+---
+2013/11/12 08:54:32 [error] [php] Invalid argument supplied for foreach() (C:\Sites\home\localhost\www\Lynxcms\framework\web\helpers\CHtml.php:2078)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#3 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): ContentController->renderPartial()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): ContentController->renderPartial()
+#8 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): ContentController->render()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): ContentController->runAction()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): ContentController->filterAccessControl()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): ContentController->runActionWithFilters()
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): ContentController->run()
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+in C:\Sites\home\localhost\www\Lynxcms\protected\models\Category.php (18)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php (36)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php (18)
+2013/11/12 08:56:23 [error] [php] Undefined variable: model (C:\Sites\home\localhost\www\Lynxcms\protected\models\Category.php:18)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#2 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): ContentController->renderPartial()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): ContentController->renderPartial()
+#7 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): ContentController->render()
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): ContentController->runAction()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): ContentController->filterAccessControl()
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): ContentController->runActionWithFilters()
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): ContentController->run()
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+in C:\Sites\home\localhost\www\Lynxcms\protected\models\Category.php (18)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php (36)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php (18)
+2013/11/12 11:46:32 [error] [exception.CException] exception 'CException' with message 'Property "ECLEditor.category_id" is not defined.' in C:\Sites\home\localhost\www\Lynxcms\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWidgetFactory.php(161): CComponent->__set('category_id', 'category_id')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ContentController), 'application.ext...', Array)
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#3 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php(50): CBaseController->widget('application.ext...', Array)
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Sites\home\l...')
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Sites\home\l...', Array, true)
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Sites\home\l...', Array, true)
+#7 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require('C:\Sites\home\l...')
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Sites\home\l...', Array, true)
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): CBaseController->renderFile('C:\Sites\home\l...', Array, true)
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): CController->render('create', Array)
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content/c...')
+#24 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/content&view=about
+---
+2013/11/12 11:46:50 [error] [php] Object of class ECLEditor could not be converted to string (C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php:50)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#1 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): ContentController->renderPartial()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): ContentController->renderPartial()
+#6 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): ContentController->render()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): ContentController->runAction()
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): ContentController->filterAccessControl()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): ContentController->runActionWithFilters()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): ContentController->run()
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php (50)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php (18)
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php (79)
+2013/11/12 11:47:35 [error] [php] Object of class ECLEditor could not be converted to string (C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php:50)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#1 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): ContentController->renderPartial()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): ContentController->renderPartial()
+#6 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): ContentController->render()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): ContentController->runAction()
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): ContentController->filterAccessControl()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): ContentController->runActionWithFilters()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): ContentController->run()
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php (50)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php (18)
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php (79)
+2013/11/12 11:49:07 [error] [php] Object of class ECLEditor could not be converted to string (C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php:57)
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#1 C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php(18): ContentController->renderPartial()
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(126): require()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\CBaseController.php(95): ContentController->renderInternal()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(869): ContentController->renderFile()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(782): ContentController->renderPartial()
+#6 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(79): ContentController->render()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): ContentController->runAction()
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): ContentController->filterAccessControl()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): ContentController->runActionWithFilters()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): ContentController->run()
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\_form.php (57)
+in C:\Sites\home\localhost\www\Lynxcms\protected\views\admin\content\create.php (18)
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php (79)
+2013/11/12 11:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/index
+---
+2013/11/12 12:26:44 [error] [exception.CException] exception 'CException' with message 'Alias "zii.behavior.CTimestamp" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\Sites\home\localhost\www\Lynxcms\framework\YiiBase.php:322
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\YiiBase.php(196): YiiBase::import('zii.behavior.CT...', true)
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CComponent.php(329): YiiBase::createComponent(Array)
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\base\CComponent.php(298): CComponent->attachBehavior('CTimestampBehav...', Array)
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(396): CComponent->attachBehaviors(Array)
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CActiveDataProvider.php(165): CActiveRecord::model('Content')
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CActiveDataProvider.php(87): CActiveDataProvider->getModel('Content')
+#6 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(125): CActiveDataProvider->__construct('Content')
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionIndex()
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content')
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/content&view=about
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/content/view&id=1
+---
+2013/11/12 12:27:10 [error] [exception.CException] exception 'CException' with message 'Alias "zii.behavior.CTimestampBehavior" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\Sites\home\localhost\www\Lynxcms\framework\YiiBase.php:322
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\YiiBase.php(196): YiiBase::import('zii.behavior.CT...', true)
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CComponent.php(329): YiiBase::createComponent(Array)
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\base\CComponent.php(298): CComponent->attachBehavior('CTimestampBehav...', Array)
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(396): CComponent->attachBehaviors(Array)
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CActiveDataProvider.php(165): CActiveRecord::model('Content')
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\CActiveDataProvider.php(87): CActiveDataProvider->getModel('Content')
+#6 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(125): CActiveDataProvider->__construct('Content')
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionIndex()
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content')
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/content&view=about
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/content/view&id=1
+---
+2013/11/12 12:43:30 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.user_id" is not defined.' in C:\Sites\home\localhost\www\Lynxcms\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\web\auth\CWebUser.php(146): CComponent->__get('user_id')
+#1 C:\Sites\home\localhost\www\Lynxcms\protected\models\Content.php(46): CWebUser->__get('user_id')
+#2 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(1071): Content->beforeSave()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#4 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(73): CActiveRecord->save()
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('create')
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content/c...')
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/content/create
+---
+2013/11/12 12:46:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'admin' for column 'created_by' at row 1. The SQL statement executed was: INSERT INTO `tbl_content` (`title`, `alias`, `description`, `category_id`, `content`, `published`, `created_by`, `updated_by`, `creation_date`, `updation_date`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, NOW(), NOW()).
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php (73)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/12 12:46:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'admin' for column 'created_by' at row 1. The SQL statement executed was: INSERT INTO `tbl_content` (`title`, `alias`, `description`, `category_id`, `content`, `published`, `created_by`, `updated_by`, `creation_date`, `updation_date`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, NOW(), NOW())' in C:\Sites\home\localhost\www\Lynxcms\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\ContentController.php(73): CActiveRecord->save()
+#3 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(49): ContentController->actionCreate()
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content/c...')
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Lynxcms/index.php?r=admin/content/create
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/content/create
+---
+2013/11/19 07:56:45 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (73)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/19 08:48:10 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lynxcms`.`tbl_content`, CONSTRAINT `fk_created_by` FOREIGN KEY (`created_by`) REFERENCES `tbl_user` (`user_id`)). The SQL statement executed was: DELETE FROM `tbl_user` WHERE `tbl_user`.`user_id`='2'.
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (116)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/19 08:48:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lynxcms`.`tbl_content`, CONSTRAINT `fk_created_by` FOREIGN KEY (`created_by`) REFERENCES `tbl_user` (`user_id`)). The SQL statement executed was: DELETE FROM `tbl_user` WHERE `tbl_user`.`user_id`='2'' in C:\Sites\home\localhost\www\Lynxcms\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(1802): CDbCommand->execute()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(1222): CActiveRecord->deleteByPk('2')
+#2 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php(116): CActiveRecord->delete()
+#3 [internal function]: UserController->actionDelete('2')
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1116): CFilterChain->run()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('delete')
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/dele...')
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Lynxcms/index.php?ajax=user-grid&id=2&r=admin%2Fuser%2Fdelete
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/user/admin
+---
+2013/11/19 08:48:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lynxcms`.`tbl_content`, CONSTRAINT `fk_created_by` FOREIGN KEY (`created_by`) REFERENCES `tbl_user` (`user_id`)). The SQL statement executed was: DELETE FROM `tbl_user` WHERE `tbl_user`.`user_id`='2'.
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (116)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/19 08:48:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lynxcms`.`tbl_content`, CONSTRAINT `fk_created_by` FOREIGN KEY (`created_by`) REFERENCES `tbl_user` (`user_id`)). The SQL statement executed was: DELETE FROM `tbl_user` WHERE `tbl_user`.`user_id`='2'' in C:\Sites\home\localhost\www\Lynxcms\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(1802): CDbCommand->execute()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(1222): CActiveRecord->deleteByPk('2')
+#2 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php(116): CActiveRecord->delete()
+#3 [internal function]: UserController->actionDelete('2')
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1116): CFilterChain->run()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('delete')
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/dele...')
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Lynxcms/index.php?ajax=user-grid&id=2&r=admin%2Fuser%2Fdelete
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/user/admin
+---
+2013/11/19 08:48:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lynxcms`.`tbl_content`, CONSTRAINT `fk_created_by` FOREIGN KEY (`created_by`) REFERENCES `tbl_user` (`user_id`)). The SQL statement executed was: DELETE FROM `tbl_user` WHERE `tbl_user`.`user_id`='2'.
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (116)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+2013/11/19 08:48:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lynxcms`.`tbl_content`, CONSTRAINT `fk_created_by` FOREIGN KEY (`created_by`) REFERENCES `tbl_user` (`user_id`)). The SQL statement executed was: DELETE FROM `tbl_user` WHERE `tbl_user`.`user_id`='2'' in C:\Sites\home\localhost\www\Lynxcms\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(1802): CDbCommand->execute()
+#1 C:\Sites\home\localhost\www\Lynxcms\framework\db\ar\CActiveRecord.php(1222): CActiveRecord->deleteByPk('2')
+#2 C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php(116): CActiveRecord->delete()
+#3 [internal function]: UserController->actionDelete('2')
+#4 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#5 C:\Sites\home\localhost\www\Lynxcms\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#6 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1116): CFilterChain->run()
+#9 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#10 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\Sites\home\localhost\www\Lynxcms\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\Sites\home\localhost\www\Lynxcms\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(282): CController->run('delete')
+#18 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/dele...')
+#19 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Lynxcms/index.php?ajax=user-grid&id=2&r=admin%2Fuser%2Fdelete
+HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/user/admin
+---
+<<<<<<< HEAD
+2013/11/19 22:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+---
+2013/11/19 22:59:11 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:06:18 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:09:07 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:09:36 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/19 23:11:05 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:12:42 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:12:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=admin/user/view&id=2
+---
+2013/11/19 23:12:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/19 23:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=admin/user
+---
+2013/11/19 23:35:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php
+---
+2013/11/19 23:44:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/
+---
+2013/11/19 23:44:21 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:44:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/19 23:44:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=admin/backend
+---
+2013/11/20 12:13:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/
+---
+2013/11/20 12:13:40 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (76)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/20 12:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/20 12:14:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=admin/backend
+---
+=======
+2013/11/19 21:55:34 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (75)
+in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+>>>>>>> 80577d107298267ae7199b17d1d01c13110001c3

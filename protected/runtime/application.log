@@ -258,13 +258,13 @@ Stack trace:
 REQUEST_URI=/Lynxcms/index.php?r=admin/category
 in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\CategoryController.php (4)
 in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
-2013/11/06 23:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/фвьшт".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+2013/11/06 23:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/\F4\E2\FC\F8\F2".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
 Stack trace:
 #0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/?????')
 #1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
 #2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Lynxcms/index.php?r=admin/фвьшт
+REQUEST_URI=/Lynxcms/index.php?r=admin/\F4\E2\FC\F8\F2
 ---
 2013/11/06 23:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
 Stack trace:
@@ -303,7 +303,7 @@ REQUEST_URI=/Lynxcms/index.php?r=admin/backend
 HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/backend
 >>>>>>> e7676cce146654b88e5aaaf79e63cf9ab61ea7b3
 ---
-2013/11/11 14:04:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+2013/11/11 14:04:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] \CF\EE\E4\EA\EB\FE\F7\E5\ED\E8\E5 \ED\E5 \F3\F1\F2\E0\ED\EE\E2\EB\E5\ED\EE, \F2.\EA. \EA\EE\ED\E5\F7\ED\FB\E9 \EA\EE\EC\EF\FC\FE\F2\E5\F0 \EE\F2\E2\E5\F0\E3 \E7\E0\EF\F0\EE\F1 \ED\E0 \EF\EE\E4\EA\EB\FE\F7\E5\ED\E8\E5.
 ' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
 Stack trace:
 #0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
@@ -938,7 +938,7 @@ in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
 2013/11/12 15:55:54 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
 in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (73)
 in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
-2013/11/13 15:28:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+2013/11/13 15:28:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] \CF\EE\E4\EA\EB\FE\F7\E5\ED\E8\E5 \ED\E5 \F3\F1\F2\E0\ED\EE\E2\EB\E5\ED\EE, \F2.\EA. \EA\EE\ED\E5\F7\ED\FB\E9 \EA\EE\EC\EF\FC\FE\F2\E5\F0 \EE\F2\E2\E5\F0\E3 \E7\E0\EF\F0\EE\F1 \ED\E0 \EF\EE\E4\EA\EB\FE\F7\E5\ED\E8\E5.
 ' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
 Stack trace:
 #0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
@@ -1650,9 +1650,141 @@ Stack trace:
 REQUEST_URI=/Lynxcms/index.php?ajax=user-grid&id=2&r=admin%2Fuser%2Fdelete
 HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/user/admin
 ---
+<<<<<<< HEAD
+2013/11/19 22:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+---
+2013/11/19 22:59:11 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:06:18 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:09:07 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:09:36 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/19 23:11:05 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:12:42 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:12:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=admin/user/view&id=2
+---
+2013/11/19 23:12:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/19 23:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=admin/user
+---
+2013/11/19 23:35:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php
+---
+2013/11/19 23:44:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/
+---
+2013/11/19 23:44:21 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (75)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/19 23:44:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/19 23:44:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=admin/backend
+---
+2013/11/20 12:13:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/
+---
+2013/11/20 12:13:40 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
+in /home/ak-2100/Sites/yii/www/Lynxcms/protected/controllers/admin/UserController.php (76)
+in /home/ak-2100/Sites/yii/www/Lynxcms/index.php (13)
+2013/11/20 12:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=site/login
+---
+2013/11/20 12:14:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ak-2100/Sites/yii/www/Lynxcms/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/ak-2100/Sites/yii/www/Lynxcms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ak-2100/Sites/yii/www/Lynxcms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Lynxcms/index.php
+HTTP_REFERER=http://yii/Lynxcms/index.php?r=admin/backend
+---
+=======
 2013/11/19 21:55:34 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
 in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (75)
 in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
+<<<<<<< HEAD
 2013/11/19 22:37:08 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
 in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\UserController.php (75)
 in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
@@ -1744,3 +1876,6 @@ Stack trace:
 REQUEST_URI=/Lynxcms/index.php
 HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/user
 ---
+=======
+>>>>>>> 80577d107298267ae7199b17d1d01c13110001c3
+>>>>>>> b5e3c14f5e3287a9a6efaa29085613925717160e

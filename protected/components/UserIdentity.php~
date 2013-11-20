@@ -21,15 +21,16 @@ class UserIdentity extends CUserIdentity
    public function authenticate()
     {
         $username=strtolower($this->username);
-        $user=User::model()->find('LOWER(name)=?',array($username));
-        if($user===null)
+        $record=User::model()->findByAttributes(array('name'=>$this->username));
+        if($record===null)
             $this->errorCode=self::ERROR_USERNAME_INVALID;
-        else if(!$user->validatePassword($this->password))
+        //else if($record->password!==crypt($this->password,$record->password))
+        else if(!record->validatePassword($this->password))
             $this->errorCode=self::ERROR_PASSWORD_INVALID;
         else
         {
-            $this->_id=$user->id;
-            $this->username=$user->name;
+            $this->_id=$record->user_id;
+            $this->username=$record->name;
             $this->errorCode=self::ERROR_NONE;
         }
         return $this->errorCode==self::ERROR_NONE;

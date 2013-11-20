@@ -71,7 +71,8 @@ class UserController extends Controller
 
 		if(isset($_POST['User']))
 		{			
-            $_POST['User']['password']=crypt($_POST['User']['password']);
+            //$_POST['User']['password']=crypt($_POST['User']['password']);
+            $_POST['User']['password']=$model->hashPassword($_POST['User']['password']);
             $model->attributes=$_POST['User'];
 			if($model->save())
 				//print_r($model->attributes['password']);
