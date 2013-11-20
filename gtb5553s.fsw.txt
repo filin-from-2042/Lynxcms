@@ -1,0 +1,778 @@
+﻿Merge branch 'master' of https://github.com/filin-from-2042/Lynxcms
+
+Conflicts:
+	protected/runtime/application.log
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 2 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#   (use "git commit" to conclude merge)
+#
+# Changes to be committed:
+#
+#	new file:   assets/1badcff4/autocomplete/indicator.gif
+#	new file:   assets/1badcff4/autocomplete/jquery.autocomplete.css
+#	new file:   assets/1badcff4/jquery.ajaxqueue.js
+#	new file:   assets/1badcff4/jquery.autocomplete.js
+#	new file:   assets/1badcff4/jquery.ba-bbq.js
+#	new file:   assets/1badcff4/jquery.ba-bbq.min.js
+#	new file:   assets/1badcff4/jquery.bgiframe.js
+#	new file:   assets/1badcff4/jquery.cookie.js
+#	new file:   assets/1badcff4/jquery.history.js
+#	new file:   assets/1badcff4/jquery.js
+#	new file:   assets/1badcff4/jquery.maskedinput.js
+#	new file:   assets/1badcff4/jquery.maskedinput.min.js
+#	new file:   assets/1badcff4/jquery.metadata.js
+#	new file:   assets/1badcff4/jquery.min.js
+#	new file:   assets/1badcff4/jquery.multifile.js
+#	new file:   assets/1badcff4/jquery.rating.js
+#	new file:   assets/1badcff4/jquery.treeview.async.js
+#	new file:   assets/1badcff4/jquery.treeview.edit.js
+#	new file:   assets/1badcff4/jquery.treeview.js
+#	new file:   assets/1badcff4/jquery.yii.js
+#	new file:   assets/1badcff4/jquery.yiiactiveform.js
+#	new file:   assets/1badcff4/jquery.yiitab.js
+#	new file:   assets/1badcff4/jui/css/base/images/ui-bg_flat_0_aaaaaa_40x100.png
+#	new file:   assets/1badcff4/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+#	new file:   assets/1badcff4/jui/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png
+#	new file:   assets/1badcff4/jui/css/base/images/ui-bg_glass_65_ffffff_1x400.png
+#	new file:   assets/1badcff4/jui/css/base/images/ui-bg_glass_75_dadada_1x400.png
+#	new file:   assets/1badcff4/jui/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png
+#	new file:   assets/1badcff4/jui/css/base/images/ui-bg_glass_95_fef1ec_1x400.png
+#	new file:   assets/1badcff4/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+#	new file:   assets/1badcff4/jui/css/base/images/ui-icons_222222_256x240.png
+#	new file:   assets/1badcff4/jui/css/base/images/ui-icons_2e83ff_256x240.png
+#	new file:   assets/1badcff4/jui/css/base/images/ui-icons_454545_256x240.png
+#	new file:   assets/1badcff4/jui/css/base/images/ui-icons_888888_256x240.png
+#	new file:   assets/1badcff4/jui/css/base/images/ui-icons_cd0a0a_256x240.png
+#	new file:   assets/1badcff4/jui/css/base/jquery-ui.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.accordion.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.autocomplete.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.button.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.core.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.datepicker.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.dialog.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.menu.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.progressbar.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.resizable.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.selectable.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.slider.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.spinner.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.tabs.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.theme.css
+#	new file:   assets/1badcff4/jui/css/base/jquery.ui.tooltip.css
+#	new file:   assets/1badcff4/jui/js/jquery-ui-i18n.min.js
+#	new file:   assets/1badcff4/jui/js/jquery-ui.min.js
+#	new file:   assets/1badcff4/punycode.js
+#	new file:   assets/1badcff4/punycode.min.js
+#	new file:   assets/1badcff4/rating/delete.gif
+#	new file:   assets/1badcff4/rating/jquery.rating.css
+#	new file:   assets/1badcff4/rating/star.gif
+#	new file:   assets/1badcff4/treeview/images/ajax-loader.gif
+#	new file:   assets/1badcff4/treeview/images/file.gif
+#	new file:   assets/1badcff4/treeview/images/folder-closed.gif
+#	new file:   assets/1badcff4/treeview/images/folder.gif
+#	new file:   assets/1badcff4/treeview/images/minus.gif
+#	new file:   assets/1badcff4/treeview/images/plus.gif
+#	new file:   assets/1badcff4/treeview/images/treeview-black-line.gif
+#	new file:   assets/1badcff4/treeview/images/treeview-black.gif
+#	new file:   assets/1badcff4/treeview/images/treeview-default-line.gif
+#	new file:   assets/1badcff4/treeview/images/treeview-default.gif
+#	new file:   assets/1badcff4/treeview/images/treeview-famfamfam-line.gif
+#	new file:   assets/1badcff4/treeview/images/treeview-famfamfam.gif
+#	new file:   assets/1badcff4/treeview/images/treeview-gray-line.gif
+#	new file:   assets/1badcff4/treeview/images/treeview-gray.gif
+#	new file:   assets/1badcff4/treeview/images/treeview-red-line.gif
+#	new file:   assets/1badcff4/treeview/images/treeview-red.gif
+#	new file:   assets/1badcff4/treeview/jquery.treeview.css
+#	new file:   assets/1badcff4/yiitab/jquery.yiitab.css
+#	new file:   assets/3aaf976c/detailview/styles.css
+#	new file:   assets/3aaf976c/gridview/bg.gif
+#	new file:   assets/3aaf976c/gridview/delete.png
+#	new file:   assets/3aaf976c/gridview/down.gif
+#	new file:   assets/3aaf976c/gridview/jquery.yiigridview.js
+#	new file:   assets/3aaf976c/gridview/loading.gif
+#	new file:   assets/3aaf976c/gridview/styles.css
+#	new file:   assets/3aaf976c/gridview/up.gif
+#	new file:   assets/3aaf976c/gridview/update.png
+#	new file:   assets/3aaf976c/gridview/view.png
+#	new file:   assets/3aaf976c/listview/down.gif
+#	new file:   assets/3aaf976c/listview/jquery.yiilistview.js
+#	new file:   assets/3aaf976c/listview/loading.gif
+#	new file:   assets/3aaf976c/listview/styles.css
+#	new file:   assets/3aaf976c/listview/up.gif
+#	new file:   assets/5fcb3264/pager.css
+#	modified:   assets/9ab89199/detailview/styles.css
+#	modified:   assets/9ab89199/gridview/bg.gif
+#	modified:   assets/9ab89199/gridview/delete.png
+#	modified:   assets/9ab89199/gridview/down.gif
+#	modified:   assets/9ab89199/gridview/jquery.yiigridview.js
+#	modified:   assets/9ab89199/gridview/loading.gif
+#	modified:   assets/9ab89199/gridview/styles.css
+#	modified:   assets/9ab89199/gridview/up.gif
+#	modified:   assets/9ab89199/gridview/update.png
+#	modified:   assets/9ab89199/gridview/view.png
+#	modified:   assets/9ab89199/listview/down.gif
+#	modified:   assets/9ab89199/listview/jquery.yiilistview.js
+#	modified:   assets/9ab89199/listview/loading.gif
+#	modified:   assets/9ab89199/listview/styles.css
+#	modified:   assets/9ab89199/listview/up.gif
+#	modified:   assets/aa52321c/images/buttons.gif
+#	modified:   assets/aa52321c/images/toolbar.gif
+#	modified:   assets/aa52321c/jquery.cleditor.css
+#	modified:   assets/aa52321c/jquery.cleditor.js
+#	modified:   assets/aa52321c/jquery.cleditor.min.js
+#	modified:   assets/bbbac901/autocomplete/indicator.gif
+#	modified:   assets/bbbac901/autocomplete/jquery.autocomplete.css
+#	modified:   assets/bbbac901/jquery.ajaxqueue.js
+#	modified:   assets/bbbac901/jquery.autocomplete.js
+#	modified:   assets/bbbac901/jquery.ba-bbq.js
+#	modified:   assets/bbbac901/jquery.ba-bbq.min.js
+#	modified:   assets/bbbac901/jquery.bgiframe.js
+#	modified:   assets/bbbac901/jquery.cookie.js
+#	modified:   assets/bbbac901/jquery.history.js
+#	modified:   assets/bbbac901/jquery.js
+#	modified:   assets/bbbac901/jquery.maskedinput.js
+#	modified:   assets/bbbac901/jquery.maskedinput.min.js
+#	modified:   assets/bbbac901/jquery.metadata.js
+#	modified:   assets/bbbac901/jquery.min.js
+#	modified:   assets/bbbac901/jquery.multifile.js
+#	modified:   assets/bbbac901/jquery.rating.js
+#	modified:   assets/bbbac901/jquery.treeview.async.js
+#	modified:   assets/bbbac901/jquery.treeview.edit.js
+#	modified:   assets/bbbac901/jquery.treeview.js
+#	modified:   assets/bbbac901/jquery.yii.js
+#	modified:   assets/bbbac901/jquery.yiiactiveform.js
+#	modified:   assets/bbbac901/jquery.yiitab.js
+#	modified:   assets/bbbac901/jui/css/base/images/ui-bg_flat_0_aaaaaa_40x100.png
+#	modified:   assets/bbbac901/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+#	modified:   assets/bbbac901/jui/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png
+#	modified:   assets/bbbac901/jui/css/base/images/ui-bg_glass_65_ffffff_1x400.png
+#	modified:   assets/bbbac901/jui/css/base/images/ui-bg_glass_75_dadada_1x400.png
+#	modified:   assets/bbbac901/jui/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png
+#	modified:   assets/bbbac901/jui/css/base/images/ui-bg_glass_95_fef1ec_1x400.png
+#	modified:   assets/bbbac901/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+#	modified:   assets/bbbac901/jui/css/base/images/ui-icons_222222_256x240.png
+#	modified:   assets/bbbac901/jui/css/base/images/ui-icons_2e83ff_256x240.png
+#	modified:   assets/bbbac901/jui/css/base/images/ui-icons_454545_256x240.png
+#	modified:   assets/bbbac901/jui/css/base/images/ui-icons_888888_256x240.png
+#	modified:   assets/bbbac901/jui/css/base/images/ui-icons_cd0a0a_256x240.png
+#	modified:   assets/bbbac901/jui/css/base/jquery-ui.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.accordion.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.autocomplete.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.button.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.core.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.datepicker.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.dialog.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.menu.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.progressbar.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.resizable.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.selectable.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.slider.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.spinner.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.tabs.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.theme.css
+#	modified:   assets/bbbac901/jui/css/base/jquery.ui.tooltip.css
+#	modified:   assets/bbbac901/jui/js/jquery-ui-i18n.min.js
+#	modified:   assets/bbbac901/jui/js/jquery-ui.min.js
+#	modified:   assets/bbbac901/punycode.js
+#	modified:   assets/bbbac901/punycode.min.js
+#	modified:   assets/bbbac901/rating/delete.gif
+#	modified:   assets/bbbac901/rating/jquery.rating.css
+#	modified:   assets/bbbac901/rating/star.gif
+#	modified:   assets/bbbac901/treeview/images/ajax-loader.gif
+#	modified:   assets/bbbac901/treeview/images/file.gif
+#	modified:   assets/bbbac901/treeview/images/folder-closed.gif
+#	modified:   assets/bbbac901/treeview/images/folder.gif
+#	modified:   assets/bbbac901/treeview/images/minus.gif
+#	modified:   assets/bbbac901/treeview/images/plus.gif
+#	modified:   assets/bbbac901/treeview/images/treeview-black-line.gif
+#	modified:   assets/bbbac901/treeview/images/treeview-black.gif
+#	modified:   assets/bbbac901/treeview/images/treeview-default-line.gif
+#	modified:   assets/bbbac901/treeview/images/treeview-default.gif
+#	modified:   assets/bbbac901/treeview/images/treeview-famfamfam-line.gif
+#	modified:   assets/bbbac901/treeview/images/treeview-famfamfam.gif
+#	modified:   assets/bbbac901/treeview/images/treeview-gray-line.gif
+#	modified:   assets/bbbac901/treeview/images/treeview-gray.gif
+#	modified:   assets/bbbac901/treeview/images/treeview-red-line.gif
+#	modified:   assets/bbbac901/treeview/images/treeview-red.gif
+#	modified:   assets/bbbac901/treeview/jquery.treeview.css
+#	modified:   assets/bbbac901/yiitab/jquery.yiitab.css
+#	modified:   assets/bf0ffa36/LICENSE.md
+#	modified:   assets/bf0ffa36/adapters/jquery.js
+#	modified:   assets/bf0ffa36/build-config.js
+#	modified:   assets/bf0ffa36/ckeditor.js
+#	modified:   assets/bf0ffa36/config.js
+#	modified:   assets/bf0ffa36/contents.css
+#	modified:   assets/bf0ffa36/editMe.762099032dfe2a2e2a6c7b8493ea908f.min.js
+#	modified:   assets/bf0ffa36/lang/af.js
+#	modified:   assets/bf0ffa36/lang/ar.js
+#	modified:   assets/bf0ffa36/lang/bg.js
+#	modified:   assets/bf0ffa36/lang/bn.js
+#	modified:   assets/bf0ffa36/lang/bs.js
+#	modified:   assets/bf0ffa36/lang/ca.js
+#	modified:   assets/bf0ffa36/lang/cs.js
+#	modified:   assets/bf0ffa36/lang/cy.js
+#	modified:   assets/bf0ffa36/lang/da.js
+#	modified:   assets/bf0ffa36/lang/de.js
+#	modified:   assets/bf0ffa36/lang/el.js
+#	modified:   assets/bf0ffa36/lang/en-au.js
+#	modified:   assets/bf0ffa36/lang/en-ca.js
+#	modified:   assets/bf0ffa36/lang/en-gb.js
+#	modified:   assets/bf0ffa36/lang/en.js
+#	modified:   assets/bf0ffa36/lang/eo.js
+#	modified:   assets/bf0ffa36/lang/es.js
+#	modified:   assets/bf0ffa36/lang/et.js
+#	modified:   assets/bf0ffa36/lang/eu.js
+#	modified:   assets/bf0ffa36/lang/fa.js
+#	modified:   assets/bf0ffa36/lang/fi.js
+#	modified:   assets/bf0ffa36/lang/fo.js
+#	modified:   assets/bf0ffa36/lang/fr-ca.js
+#	modified:   assets/bf0ffa36/lang/fr.js
+#	modified:   assets/bf0ffa36/lang/gl.js
+#	modified:   assets/bf0ffa36/lang/gu.js
+#	modified:   assets/bf0ffa36/lang/he.js
+#	modified:   assets/bf0ffa36/lang/hi.js
+#	modified:   assets/bf0ffa36/lang/hr.js
+#	modified:   assets/bf0ffa36/lang/hu.js
+#	modified:   assets/bf0ffa36/lang/is.js
+#	modified:   assets/bf0ffa36/lang/it.js
+#	modified:   assets/bf0ffa36/lang/ja.js
+#	modified:   assets/bf0ffa36/lang/ka.js
+#	modified:   assets/bf0ffa36/lang/km.js
+#	modified:   assets/bf0ffa36/lang/ko.js
+#	modified:   assets/bf0ffa36/lang/ku.js
+#	modified:   assets/bf0ffa36/lang/lt.js
+#	modified:   assets/bf0ffa36/lang/lv.js
+#	modified:   assets/bf0ffa36/lang/mk.js
+#	modified:   assets/bf0ffa36/lang/mn.js
+#	modified:   assets/bf0ffa36/lang/ms.js
+#	modified:   assets/bf0ffa36/lang/nb.js
+#	modified:   assets/bf0ffa36/lang/nl.js
+#	modified:   assets/bf0ffa36/lang/no.js
+#	modified:   assets/bf0ffa36/lang/pl.js
+#	modified:   assets/bf0ffa36/lang/pt-br.js
+#	modified:   assets/bf0ffa36/lang/pt.js
+#	modified:   assets/bf0ffa36/lang/ro.js
+#	modified:   assets/bf0ffa36/lang/ru.js
+#	modified:   assets/bf0ffa36/lang/sk.js
+#	modified:   assets/bf0ffa36/lang/sl.js
+#	modified:   assets/bf0ffa36/lang/sq.js
+#	modified:   assets/bf0ffa36/lang/sr-latn.js
+#	modified:   assets/bf0ffa36/lang/sr.js
+#	modified:   assets/bf0ffa36/lang/sv.js
+#	modified:   assets/bf0ffa36/lang/th.js
+#	modified:   assets/bf0ffa36/lang/tr.js
+#	modified:   assets/bf0ffa36/lang/ug.js
+#	modified:   assets/bf0ffa36/lang/uk.js
+#	modified:   assets/bf0ffa36/lang/vi.js
+#	modified:   assets/bf0ffa36/lang/zh-cn.js
+#	modified:   assets/bf0ffa36/lang/zh.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/a11yhelp.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/_translationstatus.txt
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/ar.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/bg.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/ca.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/cs.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/cy.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/da.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/de.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/el.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/en.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/eo.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/es.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/et.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/fa.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/fi.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/fr-ca.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/fr.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/gu.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/he.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/hi.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/hr.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/hu.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/it.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/ja.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/km.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/ku.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/lt.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/lv.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/mk.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/mn.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/nb.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/nl.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/no.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/pl.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/pt-br.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/pt.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/ro.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/ru.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/sk.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/sl.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/sq.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/sv.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/th.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/tr.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/ug.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/uk.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/vi.js
+#	modified:   assets/bf0ffa36/plugins/a11yhelp/dialogs/lang/zh-cn.js
+#	modified:   assets/bf0ffa36/plugins/about/dialogs/about.js
+#	modified:   assets/bf0ffa36/plugins/about/dialogs/logo_ckeditor.png
+#	modified:   assets/bf0ffa36/plugins/clipboard/dialogs/paste.js
+#	modified:   assets/bf0ffa36/plugins/colordialog/dialogs/colordialog.js
+#	modified:   assets/bf0ffa36/plugins/dialog/dialogDefinition.js
+#	modified:   assets/bf0ffa36/plugins/div/dialogs/div.js
+#	modified:   assets/bf0ffa36/plugins/fakeobjects/images/spacer.gif
+#	modified:   assets/bf0ffa36/plugins/find/dialogs/find.js
+#	modified:   assets/bf0ffa36/plugins/flash/dialogs/flash.js
+#	modified:   assets/bf0ffa36/plugins/flash/images/placeholder.png
+#	modified:   assets/bf0ffa36/plugins/forms/dialogs/button.js
+#	modified:   assets/bf0ffa36/plugins/forms/dialogs/checkbox.js
+#	modified:   assets/bf0ffa36/plugins/forms/dialogs/form.js
+#	modified:   assets/bf0ffa36/plugins/forms/dialogs/hiddenfield.js
+#	modified:   assets/bf0ffa36/plugins/forms/dialogs/radio.js
+#	modified:   assets/bf0ffa36/plugins/forms/dialogs/select.js
+#	modified:   assets/bf0ffa36/plugins/forms/dialogs/textarea.js
+#	modified:   assets/bf0ffa36/plugins/forms/dialogs/textfield.js
+#	modified:   assets/bf0ffa36/plugins/forms/images/hiddenfield.gif
+#	modified:   assets/bf0ffa36/plugins/icons.png
+#	modified:   assets/bf0ffa36/plugins/iframe/dialogs/iframe.js
+#	modified:   assets/bf0ffa36/plugins/iframe/images/placeholder.png
+#	modified:   assets/bf0ffa36/plugins/image/dialogs/image.js
+#	modified:   assets/bf0ffa36/plugins/image/images/noimage.png
+#	modified:   assets/bf0ffa36/plugins/link/dialogs/anchor.js
+#	modified:   assets/bf0ffa36/plugins/link/dialogs/link.js
+#	modified:   assets/bf0ffa36/plugins/link/images/anchor.png
+#	modified:   assets/bf0ffa36/plugins/liststyle/dialogs/liststyle.js
+#	modified:   assets/bf0ffa36/plugins/magicline/images/icon.png
+#	modified:   assets/bf0ffa36/plugins/pagebreak/images/pagebreak.gif
+#	modified:   assets/bf0ffa36/plugins/pastefromword/filter/default.js
+#	modified:   assets/bf0ffa36/plugins/preview/preview.html
+#	modified:   assets/bf0ffa36/plugins/scayt/LICENSE.md
+#	modified:   assets/bf0ffa36/plugins/scayt/dialogs/options.js
+#	modified:   assets/bf0ffa36/plugins/scayt/dialogs/toolbar.css
+#	modified:   assets/bf0ffa36/plugins/showblocks/images/block_address.png
+#	modified:   assets/bf0ffa36/plugins/showblocks/images/block_blockquote.png
+#	modified:   assets/bf0ffa36/plugins/showblocks/images/block_div.png
+#	modified:   assets/bf0ffa36/plugins/showblocks/images/block_h1.png
+#	modified:   assets/bf0ffa36/plugins/showblocks/images/block_h2.png
+#	modified:   assets/bf0ffa36/plugins/showblocks/images/block_h3.png
+#	modified:   assets/bf0ffa36/plugins/showblocks/images/block_h4.png
+#	modified:   assets/bf0ffa36/plugins/showblocks/images/block_h5.png
+#	modified:   assets/bf0ffa36/plugins/showblocks/images/block_h6.png
+#	modified:   assets/bf0ffa36/plugins/showblocks/images/block_p.png
+#	modified:   assets/bf0ffa36/plugins/showblocks/images/block_pre.png
+#	modified:   assets/bf0ffa36/plugins/smiley/dialogs/smiley.js
+#	modified:   assets/bf0ffa36/plugins/smiley/images/angel_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/angry_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/broken_heart.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/confused_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/cry_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/devil_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/embaressed_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/embarrassed_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/envelope.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/heart.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/kiss.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/lightbulb.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/omg_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/regular_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/sad_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/shades_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/teeth_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/thumbs_down.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/thumbs_up.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/tongue_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/tounge_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/whatchutalkingabout_smile.gif
+#	modified:   assets/bf0ffa36/plugins/smiley/images/wink_smile.gif
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/_translationstatus.txt
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/ca.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/cs.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/cy.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/de.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/el.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/en.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/eo.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/es.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/et.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/fa.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/fi.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/fr-ca.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/fr.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/he.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/hr.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/it.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/ku.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/lv.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/nb.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/nl.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/no.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/pl.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/pt-br.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/sk.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/sq.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/sv.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/th.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/tr.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/ug.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/lang/zh-cn.js
+#	modified:   assets/bf0ffa36/plugins/specialchar/dialogs/specialchar.js
+#	modified:   assets/bf0ffa36/plugins/table/dialogs/table.js
+#	modified:   assets/bf0ffa36/plugins/tabletools/dialogs/tableCell.js
+#	modified:   assets/bf0ffa36/plugins/templates/dialogs/templates.css
+#	modified:   assets/bf0ffa36/plugins/templates/dialogs/templates.js
+#	modified:   assets/bf0ffa36/plugins/templates/templates/default.js
+#	modified:   assets/bf0ffa36/plugins/templates/templates/images/template1.gif
+#	modified:   assets/bf0ffa36/plugins/templates/templates/images/template2.gif
+#	modified:   assets/bf0ffa36/plugins/templates/templates/images/template3.gif
+#	modified:   assets/bf0ffa36/plugins/wsc/LICENSE.md
+#	modified:   assets/bf0ffa36/plugins/wsc/dialogs/ciframe.html
+#	modified:   assets/bf0ffa36/plugins/wsc/dialogs/tmpFrameset.html
+#	modified:   assets/bf0ffa36/plugins/wsc/dialogs/wsc.css
+#	modified:   assets/bf0ffa36/plugins/wsc/dialogs/wsc.js
+#	modified:   assets/bf0ffa36/skins/moono/dialog.css
+#	modified:   assets/bf0ffa36/skins/moono/dialog_ie.css
+#	modified:   assets/bf0ffa36/skins/moono/dialog_ie7.css
+#	modified:   assets/bf0ffa36/skins/moono/dialog_ie8.css
+#	modified:   assets/bf0ffa36/skins/moono/dialog_iequirks.css
+#	modified:   assets/bf0ffa36/skins/moono/dialog_opera.css
+#	modified:   assets/bf0ffa36/skins/moono/editor.css
+#	modified:   assets/bf0ffa36/skins/moono/editor_gecko.css
+#	modified:   assets/bf0ffa36/skins/moono/editor_ie.css
+#	modified:   assets/bf0ffa36/skins/moono/editor_ie7.css
+#	modified:   assets/bf0ffa36/skins/moono/editor_ie8.css
+#	modified:   assets/bf0ffa36/skins/moono/editor_iequirks.css
+#	modified:   assets/bf0ffa36/skins/moono/icons.png
+#	modified:   assets/bf0ffa36/skins/moono/images/arrow.png
+#	modified:   assets/bf0ffa36/skins/moono/images/close.png
+#	modified:   assets/bf0ffa36/skins/moono/images/mini.png
+#	modified:   assets/bf0ffa36/skins/moono/readme.md
+#	modified:   assets/bf0ffa36/styles.js
+#	modified:   assets/ffdc3491/pager.css
+#	modified:   protected/components/UserIdentity.php
+#	modified:   protected/components/UserIdentity.php~
+#	modified:   protected/controllers/admin/MenuController.php
+#	modified:   protected/controllers/admin/UserController.php
+#	modified:   protected/controllers/admin/UserController.php~
+#	modified:   protected/extensions/editMe/README
+#	modified:   protected/extensions/editMe/vendors/CKEditor/CHANGES.md
+#	modified:   protected/extensions/editMe/vendors/CKEditor/LICENSE.md
+#	modified:   protected/extensions/editMe/vendors/CKEditor/README.md
+#	modified:   protected/extensions/editMe/vendors/CKEditor/adapters/jquery.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/build-config.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/ckeditor.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/config.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/contents.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/af.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/ar.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/bg.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/bn.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/bs.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/ca.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/cs.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/cy.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/da.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/de.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/el.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/en-au.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/en-ca.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/en-gb.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/en.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/eo.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/es.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/et.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/eu.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/fa.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/fi.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/fo.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/fr-ca.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/fr.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/gl.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/gu.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/he.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/hi.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/hr.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/hu.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/is.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/it.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/ja.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/ka.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/km.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/ko.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/ku.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/lt.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/lv.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/mk.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/mn.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/ms.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/nb.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/nl.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/no.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/pl.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/pt-br.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/pt.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/ro.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/ru.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/sk.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/sl.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/sq.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/sr-latn.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/sr.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/sv.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/th.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/tr.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/ug.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/uk.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/vi.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/zh-cn.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/lang/zh.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/a11yhelp.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/ar.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/bg.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/ca.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/cs.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/cy.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/da.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/de.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/el.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/en.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/eo.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/es.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/et.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/fa.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/fi.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/fr-ca.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/fr.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/gu.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/he.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/hi.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/hr.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/hu.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/it.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/ja.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/km.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/ku.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/lt.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/lv.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/mk.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/mn.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/nb.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/nl.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/no.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/pl.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/pt-br.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/pt.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/ro.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/ru.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/sk.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/sl.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/sq.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/sv.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/th.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/tr.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/ug.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/uk.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/vi.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/a11yhelp/dialogs/lang/zh-cn.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/about/dialogs/about.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/about/dialogs/logo_ckeditor.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/clipboard/dialogs/paste.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/colordialog/dialogs/colordialog.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/dialog/dialogDefinition.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/div/dialogs/div.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/fakeobjects/images/spacer.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/find/dialogs/find.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/flash/dialogs/flash.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/flash/images/placeholder.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/forms/dialogs/button.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/forms/dialogs/checkbox.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/forms/dialogs/form.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/forms/dialogs/hiddenfield.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/forms/dialogs/radio.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/forms/dialogs/select.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/forms/dialogs/textarea.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/forms/dialogs/textfield.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/forms/images/hiddenfield.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/icons.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/iframe/dialogs/iframe.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/iframe/images/placeholder.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/image/dialogs/image.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/image/images/noimage.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/link/dialogs/anchor.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/link/dialogs/link.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/link/images/anchor.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/liststyle/dialogs/liststyle.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/magicline/images/icon.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/pagebreak/images/pagebreak.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/pastefromword/filter/default.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/preview/preview.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/scayt/LICENSE.md
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/scayt/README.md
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/scayt/dialogs/options.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/scayt/dialogs/toolbar.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/showblocks/images/block_address.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/showblocks/images/block_blockquote.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/showblocks/images/block_div.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/showblocks/images/block_h1.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/showblocks/images/block_h2.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/showblocks/images/block_h3.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/showblocks/images/block_h4.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/showblocks/images/block_h5.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/showblocks/images/block_h6.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/showblocks/images/block_p.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/showblocks/images/block_pre.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/dialogs/smiley.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/angel_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/angry_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/broken_heart.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/confused_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/cry_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/devil_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/embaressed_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/embarrassed_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/envelope.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/heart.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/kiss.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/lightbulb.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/omg_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/regular_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/sad_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/shades_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/teeth_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/thumbs_down.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/thumbs_up.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/tongue_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/tounge_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/whatchutalkingabout_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/smiley/images/wink_smile.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/_translationstatus.txt
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/ca.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/cs.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/cy.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/de.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/el.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/en.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/eo.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/es.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/et.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/fa.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/fi.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/fr-ca.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/fr.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/he.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/hr.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/it.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/ku.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/lv.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/nb.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/nl.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/no.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/pl.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/pt-br.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/sk.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/sq.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/sv.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/th.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/tr.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/ug.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/lang/zh-cn.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/specialchar/dialogs/specialchar.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/table/dialogs/table.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/tabletools/dialogs/tableCell.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/templates/dialogs/templates.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/templates/dialogs/templates.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/templates/templates/default.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/templates/templates/images/template1.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/templates/templates/images/template2.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/templates/templates/images/template3.gif
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/wsc/LICENSE.md
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/wsc/README.md
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/wsc/dialogs/ciframe.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/wsc/dialogs/tmpFrameset.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/wsc/dialogs/wsc.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/plugins/wsc/dialogs/wsc.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/ajax.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/api.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/appendto.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/assets/inlineall/logo.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/assets/outputxhtml/outputxhtml.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/assets/posteddata.php
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/assets/sample.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/assets/sample.jpg
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/assets/uilanguages/languages.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/datafiltering.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/divreplace.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/index.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/inlineall.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/inlinebycode.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/plugins/dialog/assets/my_dialog.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/plugins/dialog/dialog.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/plugins/enterkey/enterkey.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.fla
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.swf
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/plugins/htmlwriter/outputforflash.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/plugins/htmlwriter/outputhtml.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/plugins/magicline/magicline.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/plugins/toolbar/toolbar.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/plugins/wysiwygarea/fullpage.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/readonly.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/replacebyclass.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/replacebycode.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/sample.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/sample.js
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/sample_posteddata.php
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/tabindex.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/uicolor.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/uilanguages.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/samples/xhtmlstyle.html
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/dialog.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/dialog_ie.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/dialog_ie7.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/dialog_ie8.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/dialog_iequirks.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/dialog_opera.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/editor.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/editor_gecko.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/editor_ie.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/editor_ie7.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/editor_ie8.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/editor_iequirks.css
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/icons.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/images/arrow.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/images/close.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/images/mini.png
+#	modified:   protected/extensions/editMe/vendors/CKEditor/skins/moono/readme.md
+#	modified:   protected/extensions/editMe/vendors/CKEditor/styles.js
+#	modified:   protected/extensions/editMe/widgets/ExtEditMe.php
+#	modified:   "protected/extensions/\320\277\321\200\320\270\320\274\320\265\321\200 \320\270\321\201\320\277\320\276\320\273\321\214\320\267\320\276\320\262\320\260\320\275\320\270\321\217 editme.txt"
+#	modified:   protected/models/Menu.php
+#	modified:   protected/models/User.php
+#	modified:   protected/models/User.php~
+#	modified:   protected/runtime/application.log
+#	new file:   protected/runtime/application.log~
+#	modified:   protected/runtime/state.bin
+#	modified:   protected/views/admin/menu/_form.php
+#	modified:   protected/views/admin/menu/_search.php
+#	modified:   protected/views/admin/menu/_view.php
+#	modified:   protected/views/admin/menu/admin.php
+#	modified:   protected/views/admin/menu/create.php
+#	modified:   protected/views/admin/menu/index.php
+#	modified:   protected/views/admin/menu/update.php
+#	modified:   protected/views/admin/menu/view.php
+#
+
