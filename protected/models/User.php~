@@ -33,9 +33,9 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, email, password, creation_date', 'required'),
+			array('name, email, password', 'required'),
 			array('name, email', 'length', 'max'=>150),
-			array('password', 'length', 'max'=>50),
+			//array('password', 'length', 'max'=>50),
 			array('last_login_time', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -62,12 +62,14 @@ class User extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'user_id' => 'User',
-			'name' => 'Name',
-			'email' => 'Email',
-			'password' => 'Password',
-			'creation_date' => 'Creation Date',
-			'last_login_time' => 'Last Login Time',
+
+			'user_id' => 'ID пользователя',
+			'name' => 'Имя входа',
+			'email' => 'Электронная почта',
+			'password' => 'Пароль',
+			'creation_date' => 'Дата создания',
+			'last_login_time' => 'Дата последнего входа',
+
 		);
 	}
 
@@ -89,12 +91,10 @@ class User extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('user_id',$this->user_id,true);
-		$criteria->compare('name',$this->name,true);
-		$criteria->compare('email',$this->email,true);
-		$criteria->compare('password',$this->password,true);
-		$criteria->compare('creation_date',$this->creation_date,true);
-		$criteria->compare('last_login_time',$this->last_login_time,true);
+		$criteria->compare('Имя',$this->name,true);
+		$criteria->compare('Email',$this->email,true);
+		$criteria->compare('Дата регистрации',$this->creation_date,true);
+		$criteria->compare('Дата последнего входа',$this->last_login_time,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -111,7 +111,7 @@ class User extends CActiveRecord
 	{
 		return parent::model($className);
 	}
-    
+  /*  
    public function validatePassword($password)
     {
         return CPasswordHelper::verifyPassword($password,$this->password);
@@ -120,6 +120,6 @@ class User extends CActiveRecord
     public function hashPassword($password)
     {
         return CPasswordHelper::hashPassword($password);
-    }
+    }*/
     
 }

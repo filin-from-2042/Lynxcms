@@ -35,7 +35,7 @@ class User extends CActiveRecord
 		return array(
 			array('name, email, password', 'required'),
 			array('name, email', 'length', 'max'=>150),
-			array('password', 'length', 'max'=>50),
+			//array('password', 'length', 'max'=>50),
 			array('last_login_time', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -111,15 +111,15 @@ class User extends CActiveRecord
 	{
 		return parent::model($className);
 	}
-  /*  
-   public function validatePassword($password)
-    {
-        return CPasswordHelper::verifyPassword($password,$this->password);
-    }
+    
+        public function validatePassword($password)
+        {
+                return CPasswordHelper::verifyPassword($password,$this->password);
+        }
  
-    public function hashPassword($password)
-    {
-        return CPasswordHelper::hashPassword($password);
-    }*/
+        public function hashPassword($password)
+        {
+                return CPasswordHelper::hashPassword($password);
+        }
     
 }
