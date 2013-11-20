@@ -258,13 +258,13 @@ Stack trace:
 REQUEST_URI=/Lynxcms/index.php?r=admin/category
 in C:\Sites\home\localhost\www\Lynxcms\protected\controllers\admin\CategoryController.php (4)
 in C:\Sites\home\localhost\www\Lynxcms\index.php (13)
-2013/11/06 23:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/\F4\E2\FC\F8\F2".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
+2013/11/06 23:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/фвьшт".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
 Stack trace:
 #0 C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/?????')
 #1 C:\Sites\home\localhost\www\Lynxcms\framework\base\CApplication.php(180): CWebApplication->processRequest()
 #2 C:\Sites\home\localhost\www\Lynxcms\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Lynxcms/index.php?r=admin/\F4\E2\FC\F8\F2
+REQUEST_URI=/Lynxcms/index.php?r=admin/фвьшт
 ---
 2013/11/06 23:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in C:\Sites\home\localhost\www\Lynxcms\framework\web\CWebApplication.php:286
 Stack trace:
@@ -303,7 +303,7 @@ REQUEST_URI=/Lynxcms/index.php?r=admin/backend
 HTTP_REFERER=http://localhost/Lynxcms/index.php?r=admin/backend
 >>>>>>> e7676cce146654b88e5aaaf79e63cf9ab61ea7b3
 ---
-2013/11/11 14:04:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] \CF\EE\E4\EA\EB\FE\F7\E5\ED\E8\E5 \ED\E5 \F3\F1\F2\E0\ED\EE\E2\EB\E5\ED\EE, \F2.\EA. \EA\EE\ED\E5\F7\ED\FB\E9 \EA\EE\EC\EF\FC\FE\F2\E5\F0 \EE\F2\E2\E5\F0\E3 \E7\E0\EF\F0\EE\F1 \ED\E0 \EF\EE\E4\EA\EB\FE\F7\E5\ED\E8\E5.
+2013/11/11 14:04:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
 ' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
 Stack trace:
 #0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
@@ -938,7 +938,7 @@ in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
 2013/11/12 15:55:54 [warning] [application] Failed to set unsafe attribute "creation_date" of "User".
 in C:\Users\7153-02100\Sites\test\www\Lynxcms\protected\controllers\admin\UserController.php (73)
 in C:\Users\7153-02100\Sites\test\www\Lynxcms\index.php (13)
-2013/11/13 15:28:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] \CF\EE\E4\EA\EB\FE\F7\E5\ED\E8\E5 \ED\E5 \F3\F1\F2\E0\ED\EE\E2\EB\E5\ED\EE, \F2.\EA. \EA\EE\ED\E5\F7\ED\FB\E9 \EA\EE\EC\EF\FC\FE\F2\E5\F0 \EE\F2\E2\E5\F0\E3 \E7\E0\EF\F0\EE\F1 \ED\E0 \EF\EE\E4\EA\EB\FE\F7\E5\ED\E8\E5.
+2013/11/13 15:28:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
 ' in C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php:382
 Stack trace:
 #0 C:\Users\7153-02100\Sites\test\www\Lynxcms\framework\db\CDbConnection.php(330): CDbConnection->open()
