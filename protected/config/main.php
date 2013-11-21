@@ -35,6 +35,7 @@ return array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
+			'class'=>'WebUser',
 		),
 		// uncomment the following to enable URLs in path-format
 		/*
@@ -73,13 +74,17 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// uncomment the following to show log messages on web pages
-				/*
+				
 				array(
 					'class'=>'CWebLogRoute',
 				),
-				*/
+				
 			),
 		),
+		'authManager'=>array(
+                        'class'=>'PhpAuthManager',
+                        'defaultRoles'=>array('guest'),
+                ),
 	),
 
 	// application-level parameters that can be accessed

@@ -29,5 +29,9 @@
 	<?php echo CHtml::encode($data->last_login_time); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('role')); ?>:</b>
+	<?php echo CHtml::encode($data->role); ?>
+	<br />
+
 
 </div>

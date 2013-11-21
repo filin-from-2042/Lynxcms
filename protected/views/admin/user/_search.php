@@ -36,6 +36,11 @@
 		<?php echo $form->textField($model,'last_login_time'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'role'); ?>
+		<?php echo $form->textField($model,'role'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>
 	</div>

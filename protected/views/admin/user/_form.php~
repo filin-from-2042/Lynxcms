@@ -51,7 +51,7 @@
 -->
 	<div class="row">
 		<?php echo $form->labelEx($model,'role'); ?>
-		<?php echo $form->dropDownList($model,'role',Role::getRoles());?>
+		<?php echo $form->dropDownList($model,'role',Role::model()->getRoles());?>
 		<?php echo $form->error($model,'role'); ?>
 	</div>
 

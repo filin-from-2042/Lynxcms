@@ -9,7 +9,6 @@ class UserController extends Controller
 	public $layout='//layouts/column2_admin';
         public $defaultAction = 'admin';
 
-
 	/**
 	 * @return array action filters
 	 */
@@ -71,13 +70,16 @@ class UserController extends Controller
 
 		if(isset($_POST['User']))
 		{			
-            //$_POST['User']['password']=crypt($_POST['User']['password']);
-            $_POST['User']['password']=$model->hashPassword($_POST['User']['password']);
-            $model->attributes=$_POST['User'];
+                    //$_POST['User']['password']=crypt($_POST['User']['password']);
+                    $_POST['User']['password']=$model->hashPassword($_POST['User']['password']);
+                    
+                    $model->attributes=$_POST['User'];
 			if($model->save())
-				//print_r($model->attributes['password']);
-                $this->redirect(array('view','id'=>$model->user_id));
-                
+			{	
+                                
+                                $this->redirect(array('view','id'=>$model->user_id));
+                                var_dump($model->attributes);
+                        }
 		}
 
 		$this->render('create',array(
@@ -147,6 +149,10 @@ class UserController extends Controller
 		$this->render('admin',array(
 			'model'=>$model,
 		));
+		if(Yii::app()->user->checkAccess('administrator'))
+		{
+                    echo "hello, I'm administrator";
+                }
 	}
 
 	/**

@@ -9,8 +9,21 @@ DROP TABLE IF EXISTS `tbl_tag`;
 CREATE TABLE `tbl_tag` (
         `tag_id` INT UNSIGNED NOT NULL  AUTO_INCREMENT,
         `tag_name` VARCHAR(150) NOT NULL,
-        CONSTRAINT `pk_tag_id` PRIMARY KEY (`tag_id`)
+        PRIMARY KEY (`tag_id`)
 ) ENGINE=InnoDB;
+
+DROP TABLE IF EXISTS `tbl_role`;
+CREATE TABLE `tbl_role` (
+        `role_id` TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
+        `name` VARCHAR(50) NOT NULL,
+        `description` VARCHAR(100),
+        PRIMARY KEY (`role_id`)
+) ENGINE=InnoDB;
+
+/*INSERT INTO `tbl_role` (role_id,name,description) VALUES 
+        (1,'administrator','delete'),          
+        (2,'editor','create, update - content, categgory, menu'),
+        (3,'user','site view, login');*/
 
 DROP TABLE IF EXISTS `tbl_user`;
 CREATE TABLE `tbl_user` (
@@ -20,10 +33,12 @@ CREATE TABLE `tbl_user` (
     `password` VARCHAR(150) NOT NULL,
     `creation_date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     `last_login_time` TIMESTAMP,
-    `role` TINYINT UNSIGNED,
-     CONSTRAINT `pk_user_id`PRIMARY KEY (`user_id`)
+    `role` TINYINT UNSIGNED NOT NULL,
+    CONSTRAINT `fk_role` FOREIGN KEY (`role`) REFERENCES `tbl_role` (`role_id`),
+    PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB;
 
+/*INSERT INTO `tbl_user` (name,email,password,role) VALUES ('demo','webmaster@example.com','$2a$10$JTJf6/XqC94rrOtzuF397OHa4mbmZrVTBOQCmYD9U.obZRUut4BoC','1');*/
 /*INSERT INTO `tbl_user` (name,email,password,role) VALUES ('demo','webmaster@example.com','$2a$10$JTJf6/XqC94rrOtzuF397OHa4mbmZrVTBOQCmYD9U.obZRUut4BoC','1');*/
 
 
@@ -51,7 +66,7 @@ CREATE TABLE `tbl_content` (
     `updated_by` INT UNSIGNED NOT NULL,
     `updation_date` DATETIME,
     `category_id` INT UNSIGNED NOT NULL,
-    CONSTRAINT `pk_content_id` PRIMARY KEY (`content_id`),
+    PRIMARY KEY (`content_id`),
     CONSTRAINT `fk_created_by` FOREIGN KEY (`created_by`) REFERENCES `tbl_user` (`user_id`),
     CONSTRAINT `fk_updated_by` FOREIGN KEY (`updated_by`) REFERENCES `tbl_user` (`user_id`),
     CONSTRAINT `fk_category_id` FOREIGN KEY (`category_id`) REFERENCES `tbl_category` (`category_id`)

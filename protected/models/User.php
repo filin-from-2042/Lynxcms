@@ -10,10 +10,12 @@
  * @property string $password
  * @property string $creation_date
  * @property string $last_login_time
+ * @property integer $role
  *
  * The followings are the available model relations:
  * @property Content[] $contents
  * @property Content[] $contents1
+ * @property Role $role0
  */
 class User extends CActiveRecord
 {
@@ -33,13 +35,13 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, email, password', 'required'),
-			array('name, email', 'length', 'max'=>150),
-			//array('password', 'length', 'max'=>50),
+			array('name, email, password, role', 'required'),
+			array('role', 'numerical', 'integerOnly'=>true),
+			array('name, email, password', 'length', 'max'=>150),
 			array('last_login_time', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('user_id, name, email, password, creation_date, last_login_time', 'safe', 'on'=>'search'),
+			array('user_id, name, email, password, creation_date, last_login_time, role', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -53,6 +55,7 @@ class User extends CActiveRecord
 		return array(
 			'contents' => array(self::HAS_MANY, 'Content', 'created_by'),
 			'contents1' => array(self::HAS_MANY, 'Content', 'updated_by'),
+			'role0' => array(self::BELONGS_TO, 'Role', 'role'),
 		);
 	}
 
@@ -62,14 +65,13 @@ class User extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-
-			'user_id' => 'ID пользователя',
-			'name' => 'Имя входа',
-			'email' => 'Электронная почта',
-			'password' => 'Пароль',
-			'creation_date' => 'Дата создания',
-			'last_login_time' => 'Дата последнего входа',
-
+			'user_id' => 'User',
+			'name' => 'Name',
+			'email' => 'Email',
+			'password' => 'Password',
+			'creation_date' => 'Creation Date',
+			'last_login_time' => 'Last Login Time',
+			'role' => 'Role',
 		);
 	}
 
@@ -91,10 +93,13 @@ class User extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('Имя',$this->name,true);
-		$criteria->compare('Email',$this->email,true);
-		$criteria->compare('Дата регистрации',$this->creation_date,true);
-		$criteria->compare('Дата последнего входа',$this->last_login_time,true);
+		$criteria->compare('user_id',$this->user_id,true);
+		$criteria->compare('name',$this->name,true);
+		$criteria->compare('email',$this->email,true);
+		$criteria->compare('password',$this->password,true);
+		$criteria->compare('creation_date',$this->creation_date,true);
+		$criteria->compare('last_login_time',$this->last_login_time,true);
+		$criteria->compare('role',$this->role);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -111,8 +116,8 @@ class User extends CActiveRecord
 	{
 		return parent::model($className);
 	}
-    
-        public function validatePassword($password)
+	
+	public function validatePassword($password)
         {
                 return CPasswordHelper::verifyPassword($password,$this->password);
         }
@@ -121,5 +126,4 @@ class User extends CActiveRecord
         {
                 return CPasswordHelper::hashPassword($password);
         }
-    
 }
