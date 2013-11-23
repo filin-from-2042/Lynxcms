@@ -61,6 +61,7 @@ class Category extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
+                        'category_id'=>'Номер категории',
 			'title' => 'Название',
 			'description' => 'Описание',
 			'published' => 'Опубликовано',

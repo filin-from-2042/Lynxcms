@@ -15,7 +15,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Поля отмеченные <span class="required">*</span> обязательны.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -33,7 +33,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'published'); ?>
-		<?php echo $form->textField($model,'published',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->dropDownList($model,'published',array(1=>'Опубликовано','0'=>'Скрыто')); ?>
 		<?php echo $form->error($model,'published'); ?>
 	</div>
 
