@@ -71,7 +71,7 @@ class UserController extends Controller
 		if(isset($_POST['User']))
 		{			
                     //$_POST['User']['password']=crypt($_POST['User']['password']);
-                    $_POST['User']['password']=$model->hashPassword($_POST['User']['password']);
+                   // $_POST['User']['password']=$model->hashPassword($_POST['User']['password']);
                     
                     $model->attributes=$_POST['User'];
 			if($model->save())
@@ -151,7 +151,7 @@ class UserController extends Controller
 		));
 		if(Yii::app()->user->checkAccess('administrator'))
 		{
-                    echo "hello, I'm administrator";
+                    echo "<h1>hello, I'm administrator</h1>";
                 }
 	}
 

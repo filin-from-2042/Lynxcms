@@ -35,7 +35,7 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, email, password, creation_date, role', 'required'),
+			array('name, email, password, role', 'required'),
 			array('role', 'numerical', 'integerOnly'=>true),
 			array('name, email, password', 'length', 'max'=>150),
 			array('last_login_time', 'safe'),
@@ -99,7 +99,9 @@ class User extends CActiveRecord
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('creation_date',$this->creation_date,true);
 		$criteria->compare('last_login_time',$this->last_login_time,true);
-		$criteria->compare('role',$this->role);
+		$criteria->with=array('role0');
+		$criteria->compare('role','2');
+		
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -126,4 +128,11 @@ class User extends CActiveRecord
         {
                 return CPasswordHelper::hashPassword($password);
         }
+        
+        protected function beforeSave()
+        {
+                $this->password=$this->hashPassword($this->password);
+                return parent::beforeSave();
+        }
+        
 }

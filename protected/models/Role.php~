@@ -104,11 +104,16 @@ class Role extends CActiveRecord
 	
 	public static function getRoles()
 	{
-	        $models=$this->model()->findAll();
+	        $models=self::model()->findAll();
 	        foreach($models as $model)
 	        {
 	                self::$_roles[$model->role_id]=$model->name;
 	        }
 	        return self::$_roles;
 	}
+	public static function getName()
+	{
+	        return $this->name;
+	}
+	
 }

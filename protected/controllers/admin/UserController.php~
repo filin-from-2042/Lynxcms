@@ -71,14 +71,14 @@ class UserController extends Controller
 		if(isset($_POST['User']))
 		{			
                     //$_POST['User']['password']=crypt($_POST['User']['password']);
-                    $_POST['User']['password']=$model->hashPassword($_POST['User']['password']);
+                   // $_POST['User']['password']=$model->hashPassword($_POST['User']['password']);
                     
                     $model->attributes=$_POST['User'];
 			if($model->save())
 			{	
                                 
                                 $this->redirect(array('view','id'=>$model->user_id));
-                                print_r($model->attributes);
+                                var_dump($model->attributes);
                         }
 		}
 

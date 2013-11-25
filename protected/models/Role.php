@@ -111,4 +111,6 @@ class Role extends CActiveRecord
 	        }
 	        return self::$_roles;
 	}
+	
+	
 }

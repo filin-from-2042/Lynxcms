@@ -99,7 +99,9 @@ class User extends CActiveRecord
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('creation_date',$this->creation_date,true);
 		$criteria->compare('last_login_time',$this->last_login_time,true);
+		$criteria->with=array('role0');
 		$criteria->compare('role',$this->role);
+		
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -126,4 +128,11 @@ class User extends CActiveRecord
         {
                 return CPasswordHelper::hashPassword($password);
         }
+        
+        protected function beforeSave()
+        {
+                $this->password=$this->hashPassword($this->password);
+                return parent::beforeSave();
+        }
+        
 }
